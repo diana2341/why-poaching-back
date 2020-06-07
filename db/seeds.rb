@@ -7,6 +7,8 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 Animal.destroy_all
 Location.destroy_all
+Statistic.destroy_all
+
 # ========================================================================================================================================================================
 tiger=Animal.create(
 population:"less than 3,800 ",
@@ -39,6 +41,12 @@ location1=Location.create(name:"malasyia",longtitude:101.9758,latitude:4.2105,an
 location1=Location.create(name:"russia",longtitude:105.3188,latitude:61.5240,animal:tiger)
 location1=Location.create(name:"nepal",longtitude:84.1240,latitude:28.3949,animal:tiger)
 location1=Location.create(name:"myanmar",longtitude:95.9560,latitude:21.9162,animal:tiger)
+# stats
+stat1=Statistic.create(
+year1:"1900",year2:"1920",year3:"1950",year4:"1980",year5:"2000",year6:'2016',year7:'2020',
+amount1:'100000',amount2:'60000',amount3:'200000',amount4:'10000',info:"info",img:'gg'
+
+)
 # ========================================================================================================================================================================
 
 elephant=Animal.create(
@@ -59,8 +67,8 @@ location2=Location.create(name:"Capetown",longtitude:18.423300,latitude:-33.9188
 # ========================================================================================================================================================================
 
 gorilla=Animal.create(
-population:"around 100,000 to 200,000 lowland Gorillas and about 700 to 800 Mountain Gorillas",
-status:"Critically endangered",
+population:"around 100,000 to 200,000 lowland Gorillas and about 880 to 1000 Mountain Gorillas",
+status:"Endangered to Critically Endangered, depending on the subspecies",
 lifespan:"up to 40 years",
 name:"Gorilla",
 causes:"something",
