@@ -65,6 +65,13 @@ location2=Location.create(name:"sri lanka",longtitude:80.7718,latitude:7.8731,an
 location2=Location.create(name:"Thailand",longtitude:100.9925,latitude:15.8700,animal:elephant)
 location2=Location.create(name:"DRC",longtitude:19.5687,latitude:2.3185,animal:elephant)
 location2=Location.create(name:"Capetown",longtitude:18.423300,latitude:-33.918861,animal:elephant)
+# stats
+stat1=Statistic.create(
+year1:"1900",year2:"1925",year3:"1950",year4:"1980",year5:"2000",year6:'2016',year7:'2020',
+amount1:'10000000',amount2:'5000000',amount3:'3000000',amount4:'1300000',amount5:'5000000',amount6:'460000',amount7:'410000',
+info:"info",img:'gg',animal:elephant
+
+)
 # ========================================================================================================================================================================
 
 gorilla=Animal.create(
@@ -88,6 +95,13 @@ location3=Location.create(name:"cameroon",longtitude:12.3547,latitude:7.3697,ani
 location3=Location.create(name:"central african republic",longtitude:20.9394,latitude:6.6111,animal:gorilla)
 location3=Location.create(name:"gabon",longtitude:11.6094,latitude:0.8037,animal:gorilla)
 location3=Location.create(name:"democratic republic of congo",longtitude:21.7587,latitude:4.0383,animal:gorilla)
+# stats
+stat1=Statistic.create(
+year1:"1900",year2:"1920",year3:"1950",year4:"2000",year5:"2016",year6:'2020',year7:'null',
+amount1:'5210',amount2:'3300',amount3:'1800',amount4:'505',amount5:'630',amount6:'1000',amount7:'null',
+info:"info",img:'gg',animal:gorilla
+
+)
 # ========================================================================================================================================================================
 
 lemur=Animal.create(
@@ -117,6 +131,13 @@ location5=Location.create(name:"cape town",longtitude:18.423300,latitude:-33.918
 location5=Location.create(name:"Namibia",longtitude:18.4929993,latitude:-22.967062 ,animal:rhino)
 location5=Location.create(name:"Zimbabwe",longtitude:31.053028,latitude:-17.824858 ,animal:rhino)
 location5=Location.create(name:"Kenya",longtitude:37.9083264,latitude:0.1768696 ,animal:rhino)
+# stats
+stat1=Statistic.create(
+year1:"2009",year2:"2011",year3:"2013",year4:"2015",year5:"2017",year6:'2019',year7:'null',
+amount1:'21000',amount2:'26364',amount3:'28894',amount4:'28366',amount5:'29000',amount6:'27300',amount7:'null',
+info:"info",img:'gg',animal:rhino
+
+)
 # ========================================================================================================================================================================
 
 orangatan=Animal.create(
