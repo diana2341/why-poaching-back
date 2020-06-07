@@ -44,7 +44,8 @@ location1=Location.create(name:"myanmar",longtitude:95.9560,latitude:21.9162,ani
 # stats
 stat1=Statistic.create(
 year1:"1900",year2:"1920",year3:"1950",year4:"1980",year5:"2000",year6:'2016',year7:'2020',
-amount1:'100000',amount2:'60000',amount3:'200000',amount4:'10000',info:"info",img:'gg',animal:tiger
+amount1:'100000',amount2:'90000',amount3:'40000',amount4:'32000',amount5:'5000',amount6:'4000',amount7:'38000',
+info:"info",img:'gg',animal:tiger
 
 )
 # ========================================================================================================================================================================

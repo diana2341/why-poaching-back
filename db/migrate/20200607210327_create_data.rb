@@ -14,6 +14,10 @@ class CreateData < ActiveRecord::Migration[6.0]
       t.string :amount2
       t.string :amount3
       t.string :amount4
+      t.string :amount5
+      t.string :amount6
+      t.string :amount7
+
 
       t.integer :animal_id
 

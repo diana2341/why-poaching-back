@@ -59,6 +59,9 @@ ActiveRecord::Schema.define(version: 2020_06_07_210327) do
     t.string "amount2"
     t.string "amount3"
     t.string "amount4"
+    t.string "amount5"
+    t.string "amount6"
+    t.string "amount7"
     t.integer "animal_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
