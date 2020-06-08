@@ -94,8 +94,20 @@ population:"around 100,000 to 200,000 lowland Gorillas and about 880 to 1000 Mou
 status:"Endangered to Critically Endangered, depending on the subspecies",
 lifespan:"up to 40 years",
 name:"Gorilla",
-causes:"something",
-help:"somehow",
+causes:"The hunting, trading and consumption of gorillas is almost illegal in all Congo Basin countries.
+Poaching still continues because of the lack of law enforcement, and ineffective  judiciary systems.
+They  are being killed because there is high demand for supply ,for meat in urban centers, eating gorilla meat is respected and shows that someone has a high status , mainly consumed by the wealthy.
+There is no way to tell how many  gorillas are poached , this is due to them being butchered and eaten at that very moment , and/ or because their meat is smoked to be sold in bush markets. Gorillas have a very low reproductive rates.
+This low reproduction rate complicates the recovery of continuously declining populations.It is known that  38-40 % of the infants die at some point during their first three years of life, during lactation period.  Gorillas are also frequently
+ wounded or killed by traps that are made to hunt down other  forest animals.They are also poached to be traded to be pets, to be used in illegal private animal sanctuaries  or trophies , also bought for showing wealth status. Their body parts are used in medicine,
+  where there is no scientific evidence that any of these medications are effective and body parts are used as magical charms.
+",
+help:" Trek to see the mountain gorillas in Rwanda, DR Congo, or Uganda, by purchasing permitsto tour you’re not only buying an encounter with the species but also funding for the gorillas’ protection but dont be near them if you are sick, they are susceptible to many infectious diseases as humans.
+ Donate to conservation organizations working to protect gorillas. Don’t buy products made with wild animal parts.
+
+
+
+",
 video_url:"https://www.youtube.com/embed/wuDiPl9dJ-c",
 img_url:"https://www.visitrwanda24.com/wp-content/uploads/2017/11/Rwanda-Gorilla-Trekking.jpg"
 )
@@ -129,8 +141,15 @@ population:"between 2,000 and 2,400",
 status:"Critically endangered",
 lifespan:"up to 19 years",
 name:"Lemur",
-causes:"something",
-help:"somehow",
+causes:"Lemurs are primates. They are  found only on the African island of Madagascar 
+Today  Ninety-five percent of Earth's lemur population are threatened, they are classified to be  the most endangered primates.
+The International Union for the Conservation of Nature primate specialists (IUCN) determined that there are  111 lemur species known and subspecies,
+ out of those 111 there  105 considered as critically endangered, endangered or vulnerable. Poaching and illegal trade in wildlife and wildlife products 
+  is one of the largest black markets in the world, estimating billions of dollars a year. These creatures are  killed for food,for the commercial bushmeat trade , 
+  others poach them to sell them as pets and to get to them, they chop down the tropical trees which also destroy their homes .",
+help:"Talk about wildlife crime with your family, friends, and everyone you can.
+Support NGOs and organizations that work for the conservation of species and ecosystems, sign petitions and donate. 
+Demand that governments take action to prevent and punish these attacks .",
 video_url:"https://www.youtube.com/embed/eTXBuhmfL1I",
 img_url:"https://i.etsystatic.com/6765760/r/il/022b28/1345593728/il_570xN.1345593728_tj77.jpg"
 )
@@ -146,8 +165,13 @@ population:"27,000 to 30,000 ",
 status:"Critically endangered",
 lifespan:"up to 50 years",
 name:"Rhino",
-causes:"something",
-help:"somehow",
+causes:"
+Rhino horn is used in Traditional Asian Medicine  for more than 2,000 years.Its known to be  used to treat  fever, rheumatism, gout, and other disorders. Also to cure hangovers, snakebites, hallucinations, typhoid, headaches, carbuncles, vomiting, food poisoning, and “devil possession.” 
+While it is commonly believed to be prescribed as an aphrodisiac, this is not the case.  There have been many  scientific studies that  proved there is no medical benefit to taking rhino horn remedies. A rhino’s horn is made of keratin, the same substance that makes up human hair and fingernails. 
+Sadly even with these facts, the demand is still very high. People also use it to show their status of wealth.A survey, by TRAFFIC in 2013, found that the reason behind people buying Rhino horn was more to show off their status and not for medicinal purposes.  Investigations of rhino trade have found  
+that consumers  are not concerned about rhino populations nor the stigma attached to using it, Which means  that the demand for rhino horn is unlikely to fall because people’s beliefs are ingrained in the culture. Rhino horn has been used to make ornaments and jewellery, although this is often a means through
+ which rhino horn can be smuggled into countries.Reports have found that rhino horn has been fetching prices as high as US$50,000 per kg.",
+help:"There is not much we can do to help.We can donate to organizations helping rhinos out. Don't buy  medication containing rhino horn or any products containing rhino horn .Spread the word on the issue about whats going on ",
 video_url:"https://www.youtube.com/embed/UugTT0ReJCM",
 img_url:"https://images.saatchiart.com/saatchi/854872/art/3018872/2088765-EFYPSZPH-7.jpg"
 )
@@ -174,8 +198,16 @@ population:"about 104,700 (Bornean), 13,846 (Sumatran), 800 (Tapanuli)",
 status:"Critically endangered",
 lifespan:"up to 50 years",
 name:"Orangutan",
-causes:"something",
-help:"somehow",
+causes:"Poaching orangutan infants and hunting for meat threatens their species. Mothers are often killed for their babies. Hundreds of infant orangutans are taken from the wild for the pet trade every year.
+The babies are sold illegally  on the black market for pets .By doing this poachers first kill the mother. There are estimations that show four to five orangutans die for every baby traded. Many baby orangutans die from this process too, 
+either from injuries from falling several hundred feet when the mother was shot, by trauma of seeing their mother killed,  from contracting diseases from humans , or from poor conditions they are kept in after being captured. Orangutans are
+ also hunted as food because of hunger and/or poverty. The rise of palm oil harvesting means that their rainforest home is also being cut down . Wild orangutans sometimes try to eat the fruit in human gardens and farms and sometimes stary into oil palm plantations, orangutans are often illegally killed because they can damage young oil palms and steal fruit.
+  ",
+help:"Donate to orginazations helping out the species. Avoid products made with unsustainable palm oil.
+Talk with your friends and family to explain why you are not buying certain products and educate others of events that are going on.
+Get yourself closer to the issues at hand and actively help out by volunteering with orangutans in Borneo
+Educate yourself and spread the word. Understanding the issues and explaining them to others can  help make a difference.
+",
 video_url:"https://www.youtube.com/embed/xSbTiKfFWFA",
 img_url:"https://cdn.vitecimagingsolutions.com/fileadmin/Gitzo/Global/Contents/Gitzo_Story/orangutan/gallery/big/04.jpg"
 )
