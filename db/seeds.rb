@@ -44,10 +44,15 @@ location1=Location.create(name:"myanmar",longtitude:95.9560,latitude:21.9162,ani
 # stats
 stat1=Statistic.create(
 year1:"1900",year2:"1920",year3:"1950",year4:"1980",year5:"2000",year6:'2016',year7:'2020',
-amount1:'100000',amount2:'90000',amount3:'40000',amount4:'32000',amount5:'5000',amount6:'4000',amount7:'38000',
+amount1:'100',amount2:'90',amount3:'40',amount4:'32',amount5:'5',amount6:'4',amount7:'3.8',
 info:"info",img:'gg',animal:tiger
 
 )
+# imgs
+image=Image.create(image_url:"https://images-na.ssl-images-amazon.com/images/I/71AlpL9xYoL._AC_SX425_.jpg",animal:tiger)
+
+image=Image.create(image_url:"https://assets.change.org/photos/8/lc/bm/yClcbMiQKykEoQB-800x450-noPad.jpg?1556388879",animal:tiger)
+image=Image.create(image_url:"https://cdn.star2.com/wp-content/uploads/2019/02/str2_lltigerpoach1.jpg",animal:tiger)
 # ========================================================================================================================================================================
 
 elephant=Animal.create(
@@ -68,10 +73,14 @@ location2=Location.create(name:"Capetown",longtitude:18.423300,latitude:-33.9188
 # stats
 stat1=Statistic.create(
 year1:"1900",year2:"1925",year3:"1950",year4:"1980",year5:"2000",year6:'2016',year7:'2020',
-amount1:'10000000',amount2:'5000000',amount3:'3000000',amount4:'1300000',amount5:'5000000',amount6:'460000',amount7:'410000',
+amount1:'10',amount2:'5',amount3:'3',amount4:'1.3',amount5:'0.5',amount6:'0.46',amount7:'0.41',
 info:"info",img:'gg',animal:elephant
 
 )
+# imgs
+image=Image.create(image_url:"https://c402277.ssl.cf1.rackcdn.com/photos/17646/images/magazine_hero/Medium_WW2122503.jpg?1565271495",animal:elephant)
+image=Image.create(image_url:"https://lh3.googleusercontent.com/proxy/V5skN8Eam-26RCTbduJBp0wsIGoEQGKlBc72V8FfWWk-NPfgDRk_ysmWi-ak0MCsW_FUeDHcoyd7MHe_S_ylQG_X_TNbhXjRcfANKT_7AXWo1QjkfqeETuISrIdbgVgc6C8BWR1GZ1EfYjoZsyp9MLBA",animal:elephant)
+image=Image.create(image_url:"https://i.dailymail.co.uk/i/pix/2013/11/07/article-2490001-193F6B4100000578-331_964x616.jpg",animal:elephant)
 # ========================================================================================================================================================================
 
 gorilla=Animal.create(
@@ -97,11 +106,16 @@ location3=Location.create(name:"gabon",longtitude:11.6094,latitude:0.8037,animal
 location3=Location.create(name:"democratic republic of congo",longtitude:21.7587,latitude:4.0383,animal:gorilla)
 # stats
 stat1=Statistic.create(
-year1:"1900",year2:"1920",year3:"1950",year4:"2000",year5:"2016",year6:'2020',year7:'null',
-amount1:'5210',amount2:'3300',amount3:'1800',amount4:'505',amount5:'630',amount6:'1000',amount7:'null',
+year1:"1900",year2:"1920",year3:"1950",year4:"2000",year5:"2016",year6:'2020',year7:'-',
+amount1:'5210',amount2:'3300',amount3:'1800',amount4:'505',amount5:'630',amount6:'1000',amount7:'-',
 info:"info",img:'gg',animal:gorilla
 
 )
+image=Image.create(image_url:"https://inm-baobab-prod-eu-west-1.s3.amazonaws.com/public/inm/media/image/iol/2018/11/12/17871009/CA-gorilla.jpg",animal:gorilla)
+image=Image.create(image_url:"https://www.virungaparkcongo.com/wp-content/uploads/2020/01/tmp505850617885884417-2.jpg",animal:gorilla)
+image=Image.create(image_url:"https://www.sciencesource.com/Doc/TR1_WATERMARKED/9/1/8/a/SS2366130.jpg?d63642021859",animal:gorilla)
+
+
 # ========================================================================================================================================================================
 
 lemur=Animal.create(
@@ -115,6 +129,10 @@ video_url:"https://www.youtube.com/embed/eTXBuhmfL1I",
 img_url:"https://i.etsystatic.com/6765760/r/il/022b28/1345593728/il_570xN.1345593728_tj77.jpg"
 )
 location4=Location.create(name:"Madagascar",longtitude: 46.8344597,latitude:-18.7792678,animal:lemur)
+# imgs
+image=Image.create(image_url:"https://afktravel.com/wp-content/uploads/2014/09/ring-tailed-lemur.jpg",animal:lemur)
+image=Image.create(image_url:"https://speakupforthevoiceless.files.wordpress.com/2014/08/5-sifaka-prepared-for-sale.jpg",animal:lemur)
+image=Image.create(image_url:"https://speakupforthevoiceless.files.wordpress.com/2014/08/journal-pone-0027570-g006.png?w=1180&h=1568",animal:lemur)
 # ========================================================================================================================================================================
 
 rhino=Animal.create(
@@ -133,9 +151,14 @@ location5=Location.create(name:"Zimbabwe",longtitude:31.053028,latitude:-17.8248
 location5=Location.create(name:"Kenya",longtitude:37.9083264,latitude:0.1768696 ,animal:rhino)
 # stats
 stat1=Statistic.create(
-year1:"2009",year2:"2011",year3:"2013",year4:"2015",year5:"2017",year6:'2019',year7:'null',
-amount1:'21000',amount2:'26364',amount3:'28894',amount4:'28366',amount5:'29000',amount6:'27300',amount7:'null',
+year1:"2009",year2:"2011",year3:"2013",year4:"2015",year5:"2017",year6:'2019',year7:'-',
+amount1:'21',amount2:'26',amount3:'28',amount4:'28',amount5:'29',amount6:'27',amount7:'-',
 info:"info",img:'gg',animal:rhino
+# imgsimage=Image.create(image_url:"https://afktravel.com/wp-content/uploads/2014/09/ring-tailed-lemur.jpg",animal:lemur)
+image=Image.create(image_url:"https://natgeo.imgix.net/factsheets/thumbnails/rhino.jpg?auto=compress,format&w=1600&h=900&fit=crop",animal:rhino)
+image=Image.create(image_url:"https://www.nationalgeographic.com/content/dam/news/2018/01/25/rhino/NationalGeographic_2451025.jpg",animal:rhino)
+image=Image.create(image_url:"https://assets3.thrillist.com/v1/image/2496357/size/tmg-article_tall;jpeg_quality=20.jpg",animal:rhino)
+
 
 )
 # ========================================================================================================================================================================
@@ -152,6 +175,11 @@ img_url:"https://cdn.vitecimagingsolutions.com/fileadmin/Gitzo/Global/Contents/G
 )
 location6=Location.create(name:"borneo",longtitude: 114.5548,latitude:0.9619,animal:orangatan)
 location6=Location.create(name:"sumatra",longtitude: 101.3431,latitude:0.5897,animal:orangatan)
+# imgs
+image=Image.create(image_url:"https://i.pinimg.com/originals/d7/a4/17/d7a417781dda2c3bd172e81999eabf18.jpg",animal:orangatan)
+image=Image.create(image_url:"https://i.dailymail.co.uk/i/pix/2015/09/15/09/2C3C575900000578-3232319-Barely_alive_this_baby_orangutan_clutches_her_dying_mother_who_s-a-1_1442306982487.jpg",animal:orangatan)
+image=Image.create(image_url:"https://i.insider.com/5e4d543ace6e42512d73dd57?width=600&format=jpeg&auto=webp",animal:orangatan)
+
 # ========================================================================================================================================================================
 
 
