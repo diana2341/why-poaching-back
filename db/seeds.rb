@@ -60,8 +60,14 @@ population:"Estimated 415,000 African Elephants and fewer than 50,000 Asian Elep
 status:"Endangered",
 lifespan:"up to 70 years",
 name:"Elephant",
-causes:"something",
-help:"somehow",
+causes:"Tens of thousands of elephants are being killed every year for their ivory tusks. ElephantTusks are teeth, and elephants use them for   digging, lifting objects, obtaining food , to protect their trunks and for defense. Elephant tusks contain Ivory
+, Elephant ivory has been used in huge amounts to make billiard balls, piano keys, identification chop ornaments and jewellery  like necklaces, bracelets, earrings, etc.. even though there was  a ban on the international trade in ivory, there has been an increasing
+demand in Asia for more ivory  and there has been a large amount of elephants are still being poached  which has led to a large decline in elephant populations and some savannah elephant populations.Behind every piece of ivory, even if it's a full tusk or a small piece
+is a dead elephant.A tusk cant be removed without killing the elephant.a broken tusk, can lead to a life-threatening infection. But poachers use darts, poison, automatic rifles to hunt  elephants, once they get one down ,while they are dying,poachers gouge the tuss out from the living elephant's skull.
+The elephants die and suffer a painful, slow death from blood loss. Studies done  at the Smithsonian Conservation Biology Institute (SCBI) have also seen elephants poached for their meat and skins ,Elephant killings for only their meat are rare. Elephant hide has a lot of value and are made to high quality
+clothes and furnishings of elephant leather are sold in boutiques across Asia.  Poachers Also kill elephants for  traditional Asian medicine products and they poison waterholes and track the elephants before stripping the carcass.",
+help:"Do not buy or sell Ivory. Buy elephant-friendly coffee and wood.Support conservations, by petitioning or giving donations, many organizations like the African Wildlife foundation.Adopting Elephants with foundations like
+The World Wildlife Foundation, by adopting you can recive pictures of your adopted elephant and they get fundingfor their conservation efforts. ",
 video_url:"https://www.youtube.com/embed/ygHH40MAL7w",
 img_url:"https://i0.wp.com/cdn-prod.medicalnewstoday.com/content/images/articles/322/322736/elephant-from-the-front.jpg?w=1155&h=1537" 
 )
@@ -153,14 +159,14 @@ location5=Location.create(name:"Kenya",longtitude:37.9083264,latitude:0.1768696 
 stat1=Statistic.create(
 year1:"2009",year2:"2011",year3:"2013",year4:"2015",year5:"2017",year6:'2019',year7:'-',
 amount1:'21',amount2:'26',amount3:'28',amount4:'28',amount5:'29',amount6:'27',amount7:'-',
-info:"info",img:'gg',animal:rhino
+info:"info",img:'gg',animal:rhino)
 # imgsimage=Image.create(image_url:"https://afktravel.com/wp-content/uploads/2014/09/ring-tailed-lemur.jpg",animal:lemur)
 image=Image.create(image_url:"https://natgeo.imgix.net/factsheets/thumbnails/rhino.jpg?auto=compress,format&w=1600&h=900&fit=crop",animal:rhino)
 image=Image.create(image_url:"https://www.nationalgeographic.com/content/dam/news/2018/01/25/rhino/NationalGeographic_2451025.jpg",animal:rhino)
 image=Image.create(image_url:"https://assets3.thrillist.com/v1/image/2496357/size/tmg-article_tall;jpeg_quality=20.jpg",animal:rhino)
 
 
-)
+
 # ========================================================================================================================================================================
 
 orangatan=Animal.create(
