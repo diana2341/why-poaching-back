@@ -49,10 +49,14 @@ info:"info",img:'gg',animal:tiger
 
 )
 # imgs
-image=Image.create(image_url:"https://images-na.ssl-images-amazon.com/images/I/71AlpL9xYoL._AC_SX425_.jpg",animal:tiger)
 
 image=Image.create(image_url:"https://assets.change.org/photos/8/lc/bm/yClcbMiQKykEoQB-800x450-noPad.jpg?1556388879",animal:tiger)
 image=Image.create(image_url:"https://cdn.star2.com/wp-content/uploads/2019/02/str2_lltigerpoach1.jpg",animal:tiger)
+image=Image.create(image_url:"https://crownridgetigers.com/wp-content/uploads/2013/08/TCM_for_web_z.jpg",animal:tiger)
+image=Image.create(image_url:"https://ichef.bbci.co.uk/news/624/mcs/media/images/78786000/jpg/_78786404_seized_illigal_wildlife_trade_items_001.jpg",animal:tiger)
+image=Image.create(image_url:"https://i.etsystatic.com/18300994/r/il/86f9f7/1635871041/il_570xN.1635871041_5nfy.jpg",animal:tiger)
+
+
 # ========================================================================================================================================================================
 
 elephant=Animal.create(
@@ -84,9 +88,13 @@ info:"info",img:'gg',animal:elephant
 
 )
 # imgs
-image=Image.create(image_url:"https://c402277.ssl.cf1.rackcdn.com/photos/17646/images/magazine_hero/Medium_WW2122503.jpg?1565271495",animal:elephant)
-image=Image.create(image_url:"https://lh3.googleusercontent.com/proxy/V5skN8Eam-26RCTbduJBp0wsIGoEQGKlBc72V8FfWWk-NPfgDRk_ysmWi-ak0MCsW_FUeDHcoyd7MHe_S_ylQG_X_TNbhXjRcfANKT_7AXWo1QjkfqeETuISrIdbgVgc6C8BWR1GZ1EfYjoZsyp9MLBA",animal:elephant)
+image=Image.create(image_url:"https://miro.medium.com/max/1400/1*cq-1sBUmxXuS8m02gCOLQQ.png",animal:elephant)
+image=Image.create(image_url:"https://lh3.googleusercontent.com/proxy/maZvrhtGy2qXfzVD3nkMHK8wjUXnkS6z_3POqqQ7IVSYVo-EgEE-ykTBAOuuiElDATs98lYCwbOTlECErLJW4Voi92vNja8DPekS8o66yd3RZuJEZ7mJjjVK22xP-i_Xx76JK0kcmrltR4cJLk4Nok9G",animal:elephant)
 image=Image.create(image_url:"https://i.dailymail.co.uk/i/pix/2013/11/07/article-2490001-193F6B4100000578-331_964x616.jpg",animal:elephant)
+image=Image.create(image_url:"https://upload.wikimedia.org/wikipedia/commons/0/08/Horn_Louvre_OA4069.jpg",animal:elephant)
+image=Image.create(image_url:"https://qph.fs.quoracdn.net/main-qimg-53c8c9af2cdca4aeb94ec10769bb9f48.webp",animal:elephant)
+image=Image.create(image_url:"https://media.wired.com/photos/5a13eb3fb4c40a64e4c48656/master/pass/elephant1.jpg",animal:elephant)
+
 # ========================================================================================================================================================================
 
 gorilla=Animal.create(
@@ -129,9 +137,9 @@ amount1:'5210',amount2:'3300',amount3:'1800',amount4:'505',amount5:'630',amount6
 info:"info",img:'gg',animal:gorilla
 
 )
-image=Image.create(image_url:"https://inm-baobab-prod-eu-west-1.s3.amazonaws.com/public/inm/media/image/iol/2018/11/12/17871009/CA-gorilla.jpg",animal:gorilla)
 image=Image.create(image_url:"https://www.virungaparkcongo.com/wp-content/uploads/2020/01/tmp505850617885884417-2.jpg",animal:gorilla)
 image=Image.create(image_url:"https://www.sciencesource.com/Doc/TR1_WATERMARKED/9/1/8/a/SS2366130.jpg?d63642021859",animal:gorilla)
+image=Image.create(image_url:"https://www.gorillas-world.com/wp-content/uploads/gorilla_hunting.jpg",animal:gorilla)
 
 
 # ========================================================================================================================================================================
@@ -155,9 +163,10 @@ img_url:"https://i.etsystatic.com/6765760/r/il/022b28/1345593728/il_570xN.134559
 )
 location4=Location.create(name:"Madagascar",longtitude: 46.8344597,latitude:-18.7792678,animal:lemur)
 # imgs
-image=Image.create(image_url:"https://afktravel.com/wp-content/uploads/2014/09/ring-tailed-lemur.jpg",animal:lemur)
 image=Image.create(image_url:"https://speakupforthevoiceless.files.wordpress.com/2014/08/5-sifaka-prepared-for-sale.jpg",animal:lemur)
-image=Image.create(image_url:"https://speakupforthevoiceless.files.wordpress.com/2014/08/journal-pone-0027570-g006.png?w=1180&h=1568",animal:lemur)
+
+image=Image.create(image_url:"https://www.lemurconservationnetwork.org/wordpress/wp-content/uploads/2018/03/Lakato14.jpg",animal:lemur)
+image=Image.create(image_url:"https://fightforrhinos.files.wordpress.com/2013/08/endangered-lemurs-killed-for-bush-in-mada.jpg",animal:lemur)
 # ========================================================================================================================================================================
 
 rhino=Animal.create(
@@ -185,9 +194,9 @@ year1:"2009",year2:"2011",year3:"2013",year4:"2015",year5:"2017",year6:'2019',ye
 amount1:'21',amount2:'26',amount3:'28',amount4:'28',amount5:'29',amount6:'27',amount7:'-',
 info:"info",img:'gg',animal:rhino)
 # imgsimage=Image.create(image_url:"https://afktravel.com/wp-content/uploads/2014/09/ring-tailed-lemur.jpg",animal:lemur)
-image=Image.create(image_url:"https://natgeo.imgix.net/factsheets/thumbnails/rhino.jpg?auto=compress,format&w=1600&h=900&fit=crop",animal:rhino)
 image=Image.create(image_url:"https://www.nationalgeographic.com/content/dam/news/2018/01/25/rhino/NationalGeographic_2451025.jpg",animal:rhino)
 image=Image.create(image_url:"https://assets3.thrillist.com/v1/image/2496357/size/tmg-article_tall;jpeg_quality=20.jpg",animal:rhino)
+image=Image.create(image_url:"https://static01.nyt.com/images/2015/12/23/world/23Wildlife-web/23Wildlife-web-superJumbo.jpg",animal:rhino)
 
 
 
@@ -214,12 +223,11 @@ img_url:"https://cdn.vitecimagingsolutions.com/fileadmin/Gitzo/Global/Contents/G
 location6=Location.create(name:"borneo",longtitude: 114.5548,latitude:0.9619,animal:orangatan)
 location6=Location.create(name:"sumatra",longtitude: 101.3431,latitude:0.5897,animal:orangatan)
 # imgs
-image=Image.create(image_url:"https://i.pinimg.com/originals/d7/a4/17/d7a417781dda2c3bd172e81999eabf18.jpg",animal:orangatan)
+image=Image.create(image_url:"https://i.dailymail.co.uk/1s/2020/01/16/19/23492862-0-image-a-44_1579203422822.jpg",animal:orangatan)
 image=Image.create(image_url:"https://i.dailymail.co.uk/i/pix/2015/09/15/09/2C3C575900000578-3232319-Barely_alive_this_baby_orangutan_clutches_her_dying_mother_who_s-a-1_1442306982487.jpg",animal:orangatan)
 image=Image.create(image_url:"https://i.insider.com/5e4d543ace6e42512d73dd57?width=600&format=jpeg&auto=webp",animal:orangatan)
 
 # ========================================================================================================================================================================
-
 
 
 
