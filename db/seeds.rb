@@ -55,6 +55,12 @@ image=Image.create(image_url:"https://cdn.star2.com/wp-content/uploads/2019/02/s
 image=Image.create(image_url:"https://crownridgetigers.com/wp-content/uploads/2013/08/TCM_for_web_z.jpg",animal:tiger)
 image=Image.create(image_url:"https://ichef.bbci.co.uk/news/624/mcs/media/images/78786000/jpg/_78786404_seized_illigal_wildlife_trade_items_001.jpg",animal:tiger)
 image=Image.create(image_url:"https://i.etsystatic.com/18300994/r/il/86f9f7/1635871041/il_570xN.1635871041_5nfy.jpg",animal:tiger)
+# orginazations
+orginazations=organization.create(website:"https://www.panthera.org/initiative/save-tiger-fund",logo:"https://www.panthera.org/assets/images/icons/panthera_logo.jpg",name:"Save the Tiger Fund-Panthera Partnership",animal:tiger)
+orginazations=organization.create(website:"https://bigcatrescue.org/",logo:"https://bigcatrescue.org/images/BigCatRescueRevised.jpg",name:"Big Cat Rescue",animal:tiger)
+orginazations=organization.create(website:"https://www.savetigersnow.org/",logo:"https://www.savetigersnow.org/wp-content/themes/save-the-tiger/img/WWF-FACEBOOK-SHARE.jpg",name:"Save Tigers now",animal:tiger)
+orginazations=organization.create(website:"https://www.wcs.org/our-work/species/tigers",logo:"https://lh3.googleusercontent.com/proxy/Lxlti1ttZH6ofma3bVCPOV334LLwxaGMEdLZyAMIaF9XasEw_LIjcIS6CSxRoSXm7oxByAjGgdJXNEUlW3GJ8hNr3jLP4dKf3uOsAAtDFu5PIutOy3_pYUhe1zzhfKDxLV0",name:"Wildlife Conservation Society",animal:tiger)
+orginazations=organization.create(website:"https://support.worldwildlife.org/site/Donation2?df_id=12391&12391.donation=form1",logo:"https://i.pinimg.com/originals/2c/37/6c/2c376c5fffe8d36a7b16d9f18d457752.gif",name:"World Wildlife fund",animal:tiger)
 
 
 # ========================================================================================================================================================================
@@ -94,6 +100,15 @@ image=Image.create(image_url:"https://i.dailymail.co.uk/i/pix/2013/11/07/article
 image=Image.create(image_url:"https://upload.wikimedia.org/wikipedia/commons/0/08/Horn_Louvre_OA4069.jpg",animal:elephant)
 image=Image.create(image_url:"https://qph.fs.quoracdn.net/main-qimg-53c8c9af2cdca4aeb94ec10769bb9f48.webp",animal:elephant)
 image=Image.create(image_url:"https://media.wired.com/photos/5a13eb3fb4c40a64e4c48656/master/pass/elephant1.jpg",animal:elephant)
+# organizations
+orginazations=organization.create(website:"https://www.savetheelephants.org/",logo:"https://wildfor.life/sites/default/files/collaborators/logo_save-the-elephants.png",name:"Save the Elephants",animal:elephant)
+orginazations=organization.create(website:"https://elephantconservation.org/",logo:"https://images.squarespace-cdn.com/content/v1/59048337b3db2ba7eaf83edf/1523028998886-HFURO5L1134ZGAXHJVUI/ke17ZwdGBToddI8pDm48kFWxnDtCdRm2WA9rXcwtIYR7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UcTSrQkGwCGRqSxozz07hWZrYGYYH8sg4qn8Lpf9k1pYMHPsat2_S1jaQY3SwdyaXg/5.jpg",name:"International Elephant Foundation",animal:elephant)
+orginazations=organization.create(website:"https://www.worldwildlife.org/species/elephant",logo:"https://i.pinimg.com/originals/2c/37/6c/2c376c5fffe8d36a7b16d9f18d457752.gif",name:"World Wildlife Fund",animal:elephant)
+orginazations=organization.create(website:"http://elephantswithoutborders.org/",logo:"https://www.greenkidsclub.com/media/wzwbordt/logo_elephants_without_bord.jpg",name:"Elephants Without Borders",animal:elephant)
+orginazations=organization.create(website:"https://biglife.org/",logo:"https://i.pinimg.com/originals/bb/f9/62/bbf962eb7273c934a4357cb90cfd8ff8.jpg",name:"Big life foundation",animal:elephant)
+orginazations=organization.create(website:"https://www.sheldrickwildlifetrust.org/",logo:"https://cdn.shopify.com/s/files/1/1426/2784/products/sheldrick-primary-etched__muchsmaller.png?v=1572297428",name:"Sheldrick Wildlife Trust",animal:elephant)
+orginazations=organization.create(website:"https://wildaid.org/programs/elephants/",logo:"https://pbs.twimg.com/profile_images/738923844879126528/6M1KDhxM_400x400.jpg",name:"Wild Aid",animal:elephant)
+
 
 # ========================================================================================================================================================================
 
@@ -140,6 +155,14 @@ info:"info",img:'gg',animal:gorilla
 image=Image.create(image_url:"https://www.virungaparkcongo.com/wp-content/uploads/2020/01/tmp505850617885884417-2.jpg",animal:gorilla)
 image=Image.create(image_url:"https://www.sciencesource.com/Doc/TR1_WATERMARKED/9/1/8/a/SS2366130.jpg?d63642021859",animal:gorilla)
 image=Image.create(image_url:"https://www.gorillas-world.com/wp-content/uploads/gorilla_hunting.jpg",animal:gorilla)
+# orginizations
+orginazations=organization.create(website:"https://www.gorillas.org/",logo:"https://www.gorillas.org/wp-content/themes/gorilla-org/images/logos/green.png",name:"The Gorilla Orginization",animal:gorilla)
+orginazations=organization.create(website:"https://gorillafund.org/",logo:"https://gorillafund.org/wp-content/uploads/2018/01/Logo.png",name:"The Dian Fossey Gorilla Fund ",animal:gorilla)
+orginazations=organization.create(website:"https://theellenfund.org/",logo:"https://media-exp1.licdn.com/dms/image/C560BAQFpr4ArmtrIvA/company-logo_200_200/0?e=2159024400&v=beta&t=Oah2qGAOYL0wMEfzCZywM1iX8jlZVMAKvJB7j3K-1S4",name:"The Ellen degeneres wildlife fund ",animal:gorilla)
+orginazations=organization.create(website:"https://www.saveagorilla.org/",logo:"https://s3-us-west-1.amazonaws.com/cr-rackspace-cloud-files-backups/Prod_Medium/user_photo599dcd7c86ca2.jpg",name:"Mountain Gorilla Conservation Fund",animal:gorilla)
+orginazations=organization.create(website:"https://www.awf.org/wildlife-conservation/mountain-gorilla",logo:"https://www.tct.global/images/2018/12/09/African-Wildlife-Foundation-TCT-organizations.jpg",name:"African Wildlife foundation ",animal:gorilla)
+
+
 
 
 # ========================================================================================================================================================================
@@ -167,6 +190,11 @@ image=Image.create(image_url:"https://speakupforthevoiceless.files.wordpress.com
 
 image=Image.create(image_url:"https://www.lemurconservationnetwork.org/wordpress/wp-content/uploads/2018/03/Lakato14.jpg",animal:lemur)
 image=Image.create(image_url:"https://fightforrhinos.files.wordpress.com/2013/08/endangered-lemurs-killed-for-bush-in-mada.jpg",animal:lemur)
+# orginizations
+orginazations=organization.create(website:"https://www.lemurconservationnetwork.org/#:~:text=The%20Lemur%20Conservation%20Network%20unites,and%20save%20lemurs%20from%20extinction.",logo:"https://www.lemurconservationnetwork.org/wordpress/wp-content/uploads/2015/01/lcn-logo-home1.png",name:"Lemur conservation Network",animal:lemur)
+orginazations=organization.create(website:"https://www.lemurreserve.org/",logo:"https://pbs.twimg.com/profile_images/948577836838858752/yc6aEYQO_400x400.jpg",name:"Lemur conservation Foundation",animal:lemur)
+
+
 # ========================================================================================================================================================================
 
 rhino=Animal.create(
@@ -198,6 +226,14 @@ image=Image.create(image_url:"https://www.nationalgeographic.com/content/dam/new
 image=Image.create(image_url:"https://assets3.thrillist.com/v1/image/2496357/size/tmg-article_tall;jpeg_quality=20.jpg",animal:rhino)
 image=Image.create(image_url:"https://static01.nyt.com/images/2015/12/23/world/23Wildlife-web/23Wildlife-web-superJumbo.jpg",animal:rhino)
 
+# orginizations
+orginazations=organization.create(website:"https://www.helpingrhinos.org/",logo:"https://cdn.thebiggive.org.uk/files/charitylogos/original/7g83exgmzpmv3nc.jpg",name:"Helping Rhinos",animal:rhino)
+orginazations=organization.create(website:"https://www.savetherhino.org/",logo:"https://www.savetherhino.org/wp-content/uploads/2018/06/NewLogosmall.jpg",name:"Save the rhino",animal:rhino)
+orginazations=organization.create(website:"https://rhinos.org/",logo:"https://www.speciesonthebrink.org/wp-content/uploads/2015/10/IRF-Logo-edited.jpg",name:"International rhino foundation",animal:rhino)
+orginazations=organization.create(website:"https://rhinorescueproject.org/",logo:"https://worldanimalnews.com/wp-content/uploads/2017/03/Rhino-Rescue-Project-Logo.jpg",name:"Rhino rescue project",animal:rhino)
+orginazations=organization.create(website:"https://www.globalgiving.org/donate/40586/helping-rhinos-usa/",logo:"https://i.pinimg.com/originals/00/26/60/002660f0e929199835d2d56eb56b0ef1.jpg",name:"Global Giving",animal:rhino)
+
+
 
 
 # ========================================================================================================================================================================
@@ -226,6 +262,11 @@ location6=Location.create(name:"sumatra",longtitude: 101.3431,latitude:0.5897,an
 image=Image.create(image_url:"https://i.dailymail.co.uk/1s/2020/01/16/19/23492862-0-image-a-44_1579203422822.jpg",animal:orangatan)
 image=Image.create(image_url:"https://i.dailymail.co.uk/i/pix/2015/09/15/09/2C3C575900000578-3232319-Barely_alive_this_baby_orangutan_clutches_her_dying_mother_who_s-a-1_1442306982487.jpg",animal:orangatan)
 image=Image.create(image_url:"https://i.insider.com/5e4d543ace6e42512d73dd57?width=600&format=jpeg&auto=webp",animal:orangatan)
+orginazations=organization.create(website:"https://www.orangutans.com.au/about-us/",logo:"https://upload.wikimedia.org/wikipedia/commons/a/a3/Logo_BOSF.jpg",name:"BOS Austrailia ",animal:orangatan)
+orginazations=organization.create(website:"https://www.orangutan.com/about-us/our-mission/",logo:"https://www.orangutan.com/wp-content/uploads/2017/11/orangutan-1-with-color-revision-smaller-version.jpg",name:"Orangutan Conservacy ",animal:orangatan)
+orginazations=organization.create(website:"https://redapes.org/about-us/",logo:"https://pbs.twimg.com/profile_images/732771661527810049/H1l4EolV_400x400.jpg",name:"Orangutan Outreach",animal:orangatan)
+orginazations=organization.create(website:"https://www.sumatranorangutan.org/about-us/",logo:"https://media-exp1.licdn.com/dms/image/C560BAQHcPn3HaQ4FYQ/company-logo_200_200/0?e=2159024400&v=beta&t=q-s3cRIAJTEfdQ5ZPGSZYeVYjBjtCpuclJMZm7pZnxg",name:"Sumatran Orangutan Conservation",animal:orangatan)
+orginazations=organization.create(website:"https://www.centerforgreatapes.org/",logo:"https://hulafrog2.com/uploads/5d3141df6bf1a.jpg",name:"Center for Great Apes",animal:orangatan)
 
 # ========================================================================================================================================================================
 
