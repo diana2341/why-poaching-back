@@ -1,11 +1,11 @@
 class OrganizationsController < ApplicationController
     def index
-        orginizations=Orginization.all
+        orginizations=Organization.all
         render json:orginizations
     end
 
     def show
-        orginization=Orginization.find(params[:id])
+        orginization=Organization.find(params[:id])
         render json:orginization
     end
 

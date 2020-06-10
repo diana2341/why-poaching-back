@@ -45,7 +45,10 @@ location1=Location.create(name:"myanmar",longtitude:95.9560,latitude:21.9162,ani
 stat1=Statistic.create(
 year1:"1900",year2:"1920",year3:"1950",year4:"1980",year5:"2000",year6:'2016',year7:'2020',
 amount1:'100',amount2:'90',amount3:'40',amount4:'32',amount5:'5',amount6:'4',amount7:'3.8',
-info:"info",img:'gg',animal:tiger
+info:"On average, Asian customs officials find the smuggled parts from at least 200 tigers per year.
+Over the last decade, between official counts and confiscations, it is estimated that 1,000 tigers have been killed for their parts, or 25% of the total population in the wild.
+The parts from a single tiger can fetch as much as $50,000 on the black market today.
+",img:'gg',animal:tiger
 
 )
 # imgs
@@ -90,7 +93,7 @@ location2=Location.create(name:"Capetown",longtitude:18.423300,latitude:-33.9188
 stat1=Statistic.create(
 year1:"1900",year2:"1925",year3:"1950",year4:"1980",year5:"2000",year6:'2016',year7:'2020',
 amount1:'10',amount2:'5',amount3:'3',amount4:'1.3',amount5:'0.5',amount6:'0.46',amount7:'0.41',
-info:"info",img:'gg',animal:elephant
+info:"In the 1980s, an estimated 100,000 elephants were being killed per year and up to 80% of herds were lost in some regions.Most Elephant poachings since 2014 occurred in Kruger National Park where 22 elephants were killed during 2015. The previous year had only 2 illegal killings. This had followed a roughly 14-year period of no recorded elephant poaching within the park (2000-2013). 2016 saw an increase in elephant poaching within South Africa and particularly Kruger National park when 46 elephants were illegally killed. Throughout 2017 there were 67 poached in KNP and 1 illegally killed elsewhere in the country. The year of 2018 saw a slight uptick in poaching, with 71 elephants illegally killed in KNP and 1 elsewhere in the country, demonstrating for a fourth year in a row the intentional targeting by organized criminal syndicates of elephants in eastern South Africa bordering Mozambique. Sources: South African Population of the African Elephant report by CITES. SAN Parks.",img:'gg',animal:elephant
 
 )
 # imgs
@@ -149,7 +152,7 @@ location3=Location.create(name:"democratic republic of congo",longtitude:21.7587
 stat1=Statistic.create(
 year1:"1900",year2:"1920",year3:"1950",year4:"2000",year5:"2016",year6:'2020',year7:'-',
 amount1:'5210',amount2:'3300',amount3:'1800',amount4:'505',amount5:'630',amount6:'1000',amount7:'-',
-info:"info",img:'gg',animal:gorilla
+info:"People living in the range of eastern lowland gorillas have traditionally had taboos against eating gorillas,this changed during the Civil war in DRC. Hunger in the area has led people to the eastern lowland gorillas to be eaten for subsistenceThe number of mountain gorillas decreased to 700 individuals by the late 1990’s and the population of the lowland gorillas had also been reducing drastically. By 2009 it was estimated that about 4% of the gorillas were being poached monthly.",img:'gg',animal:gorilla
 
 )
 image=Image.create(image_url:"https://www.virungaparkcongo.com/wp-content/uploads/2020/01/tmp505850617885884417-2.jpg",animal:gorilla)
@@ -220,7 +223,9 @@ location5=Location.create(name:"Kenya",longtitude:37.9083264,latitude:0.1768696 
 stat1=Statistic.create(
 year1:"2009",year2:"2011",year3:"2013",year4:"2015",year5:"2017",year6:'2019',year7:'-',
 amount1:'21',amount2:'26',amount3:'28',amount4:'28',amount5:'29',amount6:'27',amount7:'-',
-info:"info",img:'gg',animal:rhino)
+info:"In 2007 there were  Only 13 rhinos were lost to South African poachers,  the number of poachings increased in under ten years by 9,246% and by 2014 the number of rhinos had increased considerably to 1,215
+This inclination continued to stay high in the following years and even though, most recent studies  showed that the numbers for 2018 decreased in the numbers to under a 1,000 for the first time since 2012, there is still much work to be done in order to continue to protect and maintain population levels and minimize poaching incidents.
+",img:'gg',animal:rhino)
 # imgsimage=Image.create(image_url:"https://afktravel.com/wp-content/uploads/2014/09/ring-tailed-lemur.jpg",animal:lemur)
 image=Image.create(image_url:"https://www.nationalgeographic.com/content/dam/news/2018/01/25/rhino/NationalGeographic_2451025.jpg",animal:rhino)
 image=Image.create(image_url:"https://assets3.thrillist.com/v1/image/2496357/size/tmg-article_tall;jpeg_quality=20.jpg",animal:rhino)
