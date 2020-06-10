@@ -9,10 +9,10 @@ class UsersController < ApplicationController
     end
     def create
         user=User.new(user_params)
-        if location.save
-            render json:community
+        if user.save
+            render json:user
         else
-            render {error:'error:unable to create community'}
+            render {error:'error:unable to create user'}
         end
 
     end

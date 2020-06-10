@@ -1,6 +1,6 @@
 class CommunitiesController < ApplicationController
     def index
-        communities-Community.all 
+        communities=Community.all 
         render json:communities
     end
     def show 
@@ -18,6 +18,6 @@ class CommunitiesController < ApplicationController
     end
     private
     def community_params
-        params.require(:location).permit(:user_id,:comment,:animal)
+        params.require(:community).permit(:user_id,:comment,:animal)
     end
 end
