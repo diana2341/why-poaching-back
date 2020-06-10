@@ -26,7 +26,13 @@ There are many conservation organizations such as the World Wildlife Fund (WWF) 
 You can even start by  spreading the word and educating  others about the illegal trade of tigers and informing them on how we are losing them
 ",
 video_url:"https://www.youtube.com/embed/gYlZ2r-3kyg",
-img_url:"https://michaeldanielho.com/tiger44.jpg"
+img_url:"https://michaeldanielho.com/tiger44.jpg",
+basic_info:"
+SPEED: 30 – 40 mph (Adult, In Short Bursts)/
+DIET: Carnivore/
+SCIENTIFIC NAME: Panthera tigris/
+WEIGHT: Male: 200 – 680 lbs (Adult), Female: 140 – 370 lbs (Adult)
+"
 )
 
 location1=Location.create(name:"vietnam",longtitude:108.2772,latitude:14.0583,animal:tiger)
@@ -82,7 +88,15 @@ clothes and furnishings of elephant leather are sold in boutiques across Asia.  
 help:"Do not buy or sell Ivory. Buy elephant-friendly coffee and wood.Support conservations, by petitioning or giving donations, many organizations like the African Wildlife foundation.Adopting Elephants with foundations like
 The World Wildlife Foundation, by adopting you can recive pictures of your adopted elephant and they get fundingfor their conservation efforts ",
 video_url:"https://www.youtube.com/embed/ygHH40MAL7w",
-img_url:"https://i0.wp.com/cdn-prod.medicalnewstoday.com/content/images/articles/322/322736/elephant-from-the-front.jpg?w=1155&h=1537" 
+
+img_url:"https://i0.wp.com/cdn-prod.medicalnewstoday.com/content/images/articles/322/322736/elephant-from-the-front.jpg?w=1155&h=1537" ,
+basic_info:'SCIENTIFIC NAME: Loxodonta africana.
+TYPE: Mammals/
+DIET: Herbivore/
+GROUP NAME: Herd/
+SIZE: Height at the shoulder, 8.2 to 13 feet/
+WEIGHT: 2.5 to seven tons
+'
 )
 location2=Location.create(name:"india",longtitude:77.216721,latitude:28.644800,animal:elephant)
 location2=Location.create(name:"sri lanka",longtitude:80.7718,latitude:7.8731,animal:elephant)
@@ -98,7 +112,7 @@ info:"In the 1980s, an estimated 100,000 elephants were being killed per year an
 )
 # imgs
 image=Image.create(image_url:"https://miro.medium.com/max/1400/1*cq-1sBUmxXuS8m02gCOLQQ.png",animal:elephant)
-image=Image.create(image_url:"https://lh3.googleusercontent.com/proxy/maZvrhtGy2qXfzVD3nkMHK8wjUXnkS6z_3POqqQ7IVSYVo-EgEE-ykTBAOuuiElDATs98lYCwbOTlECErLJW4Voi92vNja8DPekS8o66yd3RZuJEZ7mJjjVK22xP-i_Xx76JK0kcmrltR4cJLk4Nok9G",animal:elephant)
+image=Image.create(image_url:"https://cdn.theatlantic.com/thumbor/R9zWzDvKO1lpasdzVzlh_1j-NrQ=/0x182:3500x2151/720x405/media/old_wire/img/upload/2012/09/04/RTR315P0/original.jpg",animal:elephant)
 image=Image.create(image_url:"https://i.dailymail.co.uk/i/pix/2013/11/07/article-2490001-193F6B4100000578-331_964x616.jpg",animal:elephant)
 image=Image.create(image_url:"https://upload.wikimedia.org/wikipedia/commons/0/08/Horn_Louvre_OA4069.jpg",animal:elephant)
 image=Image.create(image_url:"https://qph.fs.quoracdn.net/main-qimg-53c8c9af2cdca4aeb94ec10769bb9f48.webp",animal:elephant)
@@ -135,7 +149,15 @@ help:" Trek to see the mountain gorillas in Rwanda, DR Congo, or Uganda, by purc
 
 ",
 video_url:"https://www.youtube.com/embed/wuDiPl9dJ-c",
-img_url:"https://www.visitrwanda24.com/wp-content/uploads/2017/11/Rwanda-Gorilla-Trekking.jpg"
+img_url:"https://www.visitrwanda24.com/wp-content/uploads/2017/11/Rwanda-Gorilla-Trekking.jpg",
+basic_info:
+'Scientific name: Gorilla.
+TYPE: Mammals/
+DIET: Omnivore/
+GROUP NAME: Troop/
+SIZE: Standing height, four to six feet/
+WEIGHT: 150 to 400 pounds
+'
 )
 location3=Location.create(name:"rwanda",longtitude:29.8739,latitude:1.9403,animal:gorilla)
 location3=Location.create(name:"uganda",longtitude:32.2903,latitude: 1.3733,animal:gorilla)
@@ -185,6 +207,13 @@ help:"Talk about wildlife crime with your family, friends, and everyone you can.
 Support NGOs and organizations that work for the conservation of species and ecosystems, sign petitions and donate. 
 Demand that governments take action to prevent and punish these attacks ",
 video_url:"https://www.youtube.com/embed/eTXBuhmfL1I",
+basic_info:'
+SCIENTIFIC NAME: Lemuroidea/
+CLASS: Mammalia/
+RANK: Superfamily/
+WEIGHT: Ring-tailed lemur: 4.9 lbs/
+DIET:Omnivorous
+',
 img_url:"https://i.etsystatic.com/6765760/r/il/022b28/1345593728/il_570xN.1345593728_tj77.jpg"
 )
 location4=Location.create(name:"Madagascar",longtitude: 46.8344597,latitude:-18.7792678,animal:lemur)
@@ -211,8 +240,16 @@ While it is commonly believed to be prescribed as an aphrodisiac, this is not th
 Sadly even with these facts, the demand is still very high. People also use it to show their status of wealth.A survey, by TRAFFIC in 2013, found that the reason behind people buying Rhino horn was more to show off their status and not for medicinal purposes.  Investigations of rhino trade have found  
 that consumers  are not concerned about rhino populations nor the stigma attached to using it, Which means  that the demand for rhino horn is unlikely to fall because people’s beliefs are ingrained in the culture. Rhino horn has been used to make ornaments and jewellery, although this is often a means through
  which rhino horn can be smuggled into countries.Reports have found that rhino horn has been fetching prices as high as US$50,000 per kg.",
-help:"There is not much we can do to help.We can donate to organizations helping rhinos out. Don't buy  medication containing rhino horn or any products containing rhino horn .Spread the word on the issue about whats going on ",
+help:"You can donate to organizations helping rhinos out. Don't buy  medication containing rhino horn or any products containing rhino horn. Spread the word on the issue about whats going on ",
 video_url:"https://www.youtube.com/embed/UugTT0ReJCM",
+basic_info:'
+SCIENTIFIC NAME: Rhinocerotidae/
+TYPE: Mammals/
+WEIGHT: White rhinoceros: 5,100 lbs, Black rhinoceros: 1,800 – 3,100 lbs, Indian rhinoceros: 4,900 lbs/
+SPEED: White rhinoceros: 31 mph, Black rhinoceros: 34 mph, Indian rhinoceros: 34 mph/
+GESTATION PERIOD: White rhinoceros: 16 – 18 months, Black rhinoceros: 15 – 16 months, Indian rhinoceros: 15 – 16 months/
+LIFESPAN: White rhinoceros: 40 – 50 years, Black rhinoceros: 35 – 50 years, Indian rhinoceros: 35 – 45 years/
+HEIGHT: White rhinoceros: 5.6 – 6.1 ft., Black rhinoceros: 4.3 – 5.9 ft., Indian rhinoceros: 5.3 – 6.3 ft',
 img_url:"https://images.saatchiart.com/saatchi/854872/art/3018872/2088765-EFYPSZPH-7.jpg"
 )
 location5=Location.create(name:"cape town",longtitude:18.423300,latitude:-33.918861 ,animal:rhino)
@@ -258,6 +295,13 @@ Talk with your friends and family to explain why you are not buying certain prod
 Get yourself closer to the issues at hand and actively help out by volunteering with orangutans in Borneo
 Educate yourself and spread the word. Understanding the issues and explaining them to others can  help make a difference
 ",
+basic_info:'
+SCIENTIFIC NAME: Pongo/
+TYPE: Mammals/
+GESTATION PERIOD: Bornean orangutan: 259 days Encyclopedia of Life/
+WEIGHT: Sumatran orangutan: 99 lbs, Bornean orangutan: 110 – 220 lbs/
+HEIGHT: Sumatran orangutan: 4.6 ft., Bornean orangutan: 3.9 – 4.6 ft/
+LENGTH: Sumatran orangutan: 2.7 ft., Bornean orangutan: 3.9 – 4.6',
 video_url:"https://www.youtube.com/embed/xSbTiKfFWFA",
 img_url:"https://cdn.vitecimagingsolutions.com/fileadmin/Gitzo/Global/Contents/Gitzo_Story/orangutan/gallery/big/04.jpg"
 )

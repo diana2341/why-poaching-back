@@ -6,6 +6,7 @@ class CreateAnimals < ActiveRecord::Migration[6.0]
       t.string :causes 
       t.string :help 
       t.string :video_url
+      t.string :basic_info
 
       t.timestamps
     end

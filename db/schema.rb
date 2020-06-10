@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(version: 2020_06_09_155921) do
     t.string "causes"
     t.string "help"
     t.string "video_url"
+    t.string "basic_info"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.string "img_url"
