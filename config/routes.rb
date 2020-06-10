@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :users
+  resources :communities
   resources :organizations
   resources :statistics
   resources :images

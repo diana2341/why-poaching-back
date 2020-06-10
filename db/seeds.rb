@@ -151,7 +151,8 @@ help:" Trek to see the mountain gorillas in Rwanda, DR Congo, or Uganda, by purc
 video_url:"https://www.youtube.com/embed/wuDiPl9dJ-c",
 img_url:"https://www.visitrwanda24.com/wp-content/uploads/2017/11/Rwanda-Gorilla-Trekking.jpg",
 basic_info:
-'Scientific name: Gorilla.
+'
+SCIENTIFIC NAME: Gorilla/
 TYPE: Mammals/
 DIET: Omnivore/
 GROUP NAME: Troop/

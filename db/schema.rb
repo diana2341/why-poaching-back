@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_06_09_155921) do
+ActiveRecord::Schema.define(version: 2020_06_10_174411) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -28,6 +28,14 @@ ActiveRecord::Schema.define(version: 2020_06_09_155921) do
     t.string "weight"
     t.string "status"
     t.string "lifespan"
+  end
+
+  create_table "communities", force: :cascade do |t|
+    t.string "comment"
+    t.string "animal"
+    t.integer "user_id"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
   end
 
   create_table "images", force: :cascade do |t|
@@ -73,6 +81,12 @@ ActiveRecord::Schema.define(version: 2020_06_09_155921) do
     t.string "amount6"
     t.string "amount7"
     t.integer "animal_id"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "users", force: :cascade do |t|
+    t.string "username"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
