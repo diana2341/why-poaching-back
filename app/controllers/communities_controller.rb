@@ -1,6 +1,6 @@
 class CommunitiesController < ApplicationController
     def index
-        communities=Community.all 
+        communities=Community.all.order("created_at DESC")
         render json:communities
     end
     def show 
@@ -9,8 +9,8 @@ class CommunitiesController < ApplicationController
     end
     def create
         community=Community.new(community_params)
-        if location.save
-            render json:community
+        if community.save
+            render json: community
         else
             render {error:'error:unable to create community'}
         end
@@ -18,6 +18,6 @@ class CommunitiesController < ApplicationController
     end
     private
     def community_params
-        params.require(:community).permit(:user_id,:comment,:animal)
+        params.require(:community).permit(:username,:comment,:animal)
     end
 end
