@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :links
+  resources :poachers
   resources :users
   resources :communities
   resources :organizations

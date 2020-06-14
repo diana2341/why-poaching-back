@@ -1,0 +1,2 @@
+class Poacher < ApplicationRecord
+end

@@ -8,20 +8,23 @@
 Animal.destroy_all
 Location.destroy_all
 Statistic.destroy_all
+Poacher.destroy_all
+Link.destroy_all
+Image.destroy_all
 
 # ========================================================================================================================================================================
 tiger=Animal.create(
 population:"less than 3,800 ",
 status:"Endangered",lifespan:"up to 19 years",
 name:"Tiger",
-causes:"Wild tigers' main threat is poaching(illegal hunting).They are hunted for their body parts, their bones, skin,and meat.
+causes:"    Wild tigers main threat today is poaching. They are hunted for their body parts, their bones, skin, and meat.
  They are high in demand and are made into various products that are used throughout countries in Asia and Great Britain. They are used for medical purposes, 
- it is thought that each body part has different curing effects and are thought to calm fright and cure ulcers, bites, rheumatism, laziness,pimples, to ward off evil spirits. 
+ it is thought that each body part has different curing effects and are thought to calm fright and cure ulcers, bites, rheumatism, laziness, pimples, to ward off evil spirits. 
  Chinese government banned the use of tiger parts in the 1990s, there is  strong cultural belief in tiger parts helping to treat these diseases or problems. Because of this there is still high demand on tiger parts.
  They are also used as status symbols, their skins used as home decor like carpets, they are used to make  wine , and to keep as pets or to eat . In these countries, a pair of tiger eyes can sell for $170 , a paw $1000. 
- Tiger bone may be sold in powdered form for anywhere between $64-$168/lb , tiger wine known to be sold for over $30,000 a case and their pelt (skin) could also be sold at $20,000.
+ Tiger bone may be sold in powdered form for anywhere between $64-$168/lb, tiger wine known to be sold for over $30,000 a case and their pelts could also be sold at $20,000.
 ",
-help:"When traveling don’t purchase any product that could contain animal parts. 
+help:" When traveling don’t purchase any product that could contain animal parts. 
 There are many conservation organizations such as the World Wildlife Fund (WWF) and the International Fund for Animal Welfare (IFAW) that are working to stop and prevent animal poaching, you can help by  signing a petition or donating to their organization.
 You can even start by  spreading the word and educating  others about the illegal trade of tigers and informing them on how we are losing them
 ",
@@ -51,9 +54,9 @@ location1=Location.create(name:"myanmar",longtitude:95.9560,latitude:21.9162,ani
 stat1=Statistic.create(
 year1:"1900",year2:"1920",year3:"1950",year4:"1980",year5:"2000",year6:'2016',year7:'2020',
 amount1:'100',amount2:'90',amount3:'40',amount4:'32',amount5:'5',amount6:'4',amount7:'3.8',
-info:"On average, Asian customs officials find the smuggled parts from at least 200 tigers per year.
+info:"  On average, Asian customs officials find the smuggled parts from at least 200 tigers per year.
 Over the last decade, between official counts and confiscations, it is estimated that 1,000 tigers have been killed for their parts, or 25% of the total population in the wild.
-The parts from a single tiger can fetch as much as $50,000 on the black market today.
+The parts from a single tiger can fetch as much as $50,000 on the black market today. The graph of the right shows the decline of the tiger population in thousands.
 ",img:'gg',animal:tiger
 
 )
@@ -70,6 +73,14 @@ orginazations=Organization.create(website:"https://bigcatrescue.org/",logo:"http
 orginazations=Organization.create(website:"https://www.savetigersnow.org/",logo:"https://www.savetigersnow.org/wp-content/themes/save-the-tiger/img/WWF-FACEBOOK-SHARE.jpg",name:"Save Tigers now",animal:tiger)
 orginazations=Organization.create(website:"https://www.wcs.org/our-work/species/tigers",logo:"https://lh3.googleusercontent.com/proxy/Lxlti1ttZH6ofma3bVCPOV334LLwxaGMEdLZyAMIaF9XasEw_LIjcIS6CSxRoSXm7oxByAjGgdJXNEUlW3GJ8hNr3jLP4dKf3uOsAAtDFu5PIutOy3_pYUhe1zzhfKDxLV0",name:"Wildlife Conservation Society",animal:tiger)
 orginazations=Organization.create(website:"https://support.worldwildlife.org/site/Donation2?df_id=12391&12391.donation=form1",logo:"https://i.pinimg.com/originals/2c/37/6c/2c376c5fffe8d36a7b16d9f18d457752.gif",name:"World Wildlife fund",animal:tiger)
+Link.create(animal:tiger,name:"",website:"https://www.tigers-world.com/tigers-endangered/")
+Link.create(animal:tiger,name:"",website:"https://crownridgetigers.com/the-illegal-trade-in-tiger-parts")
+Link.create(animal:tiger,name:"",website:"https://www.worldwildlife.org/species/tiger")
+Link.create(animal:tiger,name:"",website:"https://blog.nationalgeographic.org/2014/04/29/tigers-in-traditional-chinese-medicine-a-universal-apothecary/")
+Link.create(animal:tiger,name:"",website:"https://conservewildcats.org/2019/03/20/why-do-people-poach-tigers/")
+Link.create(animal:tiger,name:"",website:"https://www.independent.co.uk/voices/comment/save-the-tiger-poaching-facts-9630722.html")
+Link.create(animal:tiger,name:"",website:"http://tigers.panda.org/news/wild-tigers-numbers-increase-to-3890/")
+
 
 
 # ========================================================================================================================================================================
@@ -79,13 +90,13 @@ population:"Estimated 415,000 African Elephants and fewer than 50,000 Asian Elep
 status:"Endangered",
 lifespan:"up to 70 years",
 name:"Elephant",
-causes:"Tens of thousands of elephants are being killed every year for their ivory tusks. ElephantTusks are teeth, and elephants use them for   digging, lifting objects, obtaining food , to protect their trunks and for defense. Elephant tusks contain Ivory
-, Elephant ivory has been used in huge amounts to make billiard balls, piano keys, identification chop ornaments and jewellery  like necklaces, bracelets, earrings, etc.. even though there was  a ban on the international trade in ivory, there has been an increasing
-demand in Asia for more ivory  and there has been a large amount of elephants are still being poached  which has led to a large decline in elephant populations and some savannah elephant populations.Behind every piece of ivory, even if it's a full tusk or a small piece
-is a dead elephant.A tusk cant be removed without killing the elephant.a broken tusk, can lead to a life-threatening infection. But poachers use darts, poison, automatic rifles to hunt  elephants, once they get one down ,while they are dying,poachers gouge the tuss out from the living elephant's skull.
+causes:"    Tens of thousands of elephants are being killed every year for their ivory tusks. Elephant Tusks are teeth, and elephants use them for  digging, lifting objects, obtaining food, to protect their trunks and for defense. Elephant tusks contain Ivory
+, Elephant ivory has been used in huge amounts to make billiard balls, piano keys, identification chop ornaments and jewellery, like necklaces, bracelets, earrings, etc.. even though there was  a ban on the international trade in ivory, there has been an increasing
+demand in Asia for more ivory  and there has been a large amount of elephants are still being poached  which has led to a large decline in elephant populations and some savannah elephant populations. Behind every piece of ivory, even if it's a full tusk or a small piece
+is a dead elephant. A tusk can't be removed without killing the elephant. A broken tusk, can lead to a life-threatening infection. Poachers use darts, poison, automatic rifles to hunt  elephants, once they get one down ,while they are dying, poachers gouge the tuss out from the living elephant's skull.
 The elephants die and suffer a painful, slow death from blood loss. Studies done  at the Smithsonian Conservation Biology Institute (SCBI) have also seen elephants poached for their meat and skins ,Elephant killings for only their meat are rare. Elephant hide has a lot of value and are made to high quality
-clothes and furnishings of elephant leather are sold in boutiques across Asia.  Poachers Also kill elephants for  traditional Asian medicine products and they poison waterholes and track the elephants before stripping the carcass.",
-help:"Do not buy or sell Ivory. Buy elephant-friendly coffee and wood.Support conservations, by petitioning or giving donations, many organizations like the African Wildlife foundation.Adopting Elephants with foundations like
+clothes and furnishings. Elephant leather are sold in boutiques across Asia.  Poachers Also kill elephants for  traditional Asian medicine products and they poison waterholes and track the elephants before stripping the carcass.",
+help:"Do not buy or sell Ivory. Buy elephant-friendly coffee and wood. Support conservations, by petitioning or giving donations, many organizations like the African Wildlife foundation. Adopting Elephants with foundations like
 The World Wildlife Foundation, by adopting you can recive pictures of your adopted elephant and they get fundingfor their conservation efforts ",
 video_url:"https://www.youtube.com/embed/ygHH40MAL7w",
 
@@ -107,7 +118,7 @@ location2=Location.create(name:"Capetown",longtitude:18.423300,latitude:-33.9188
 stat1=Statistic.create(
 year1:"1900",year2:"1925",year3:"1950",year4:"1980",year5:"2000",year6:'2016',year7:'2020',
 amount1:'10',amount2:'5',amount3:'3',amount4:'1.3',amount5:'0.5',amount6:'0.46',amount7:'0.41',
-info:"In the 1980s, an estimated 100,000 elephants were being killed per year and up to 80% of herds were lost in some regions.Most Elephant poachings since 2014 occurred in Kruger National Park where 22 elephants were killed during 2015. The previous year had only 2 illegal killings. This had followed a roughly 14-year period of no recorded elephant poaching within the park (2000-2013). 2016 saw an increase in elephant poaching within South Africa and particularly Kruger National park when 46 elephants were illegally killed. Throughout 2017 there were 67 poached in KNP and 1 illegally killed elsewhere in the country. The year of 2018 saw a slight uptick in poaching, with 71 elephants illegally killed in KNP and 1 elsewhere in the country, demonstrating for a fourth year in a row the intentional targeting by organized criminal syndicates of elephants in eastern South Africa bordering Mozambique. Sources: South African Population of the African Elephant report by CITES. SAN Parks.",img:'gg',animal:elephant
+info:"In the 1980s, an estimated 100,000 elephants were being killed per year and up to 80% of herds were lost in some regions. Most Elephant poachings since 2014 occurred in Kruger National Park where 22 elephants were killed during 2015. The previous year had only 2 illegal killings. This had followed a roughly 14-year period of no recorded elephant poaching within the park (2000-2013). 2016 saw an increase in elephant poaching within South Africa and particularly Kruger National park when 46 elephants were illegally killed. Throughout 2017 there were 67 poached in KNP and 1 illegally killed elsewhere in the country. The year of 2018 saw a slight uptick in poaching, with 71 elephants illegally killed in KNP and 1  somewhere else in the country, demonstrating for a fourth year in a row the intentional targeting by organized criminal syndicates of elephants in eastern South Africa bordering Mozambique. The graph on the right shows the popoulation starting at TEN MILLION and now declined to 460,000 african elephants left.",img:'gg',animal:elephant
 
 )
 # imgs
@@ -126,6 +137,13 @@ orginazations=Organization.create(website:"https://biglife.org/",logo:"https://i
 orginazations=Organization.create(website:"https://www.sheldrickwildlifetrust.org/",logo:"https://cdn.shopify.com/s/files/1/1426/2784/products/sheldrick-primary-etched__muchsmaller.png?v=1572297428",name:"Sheldrick Wildlife Trust",animal:elephant)
 orginazations=Organization.create(website:"https://wildaid.org/programs/elephants/",logo:"https://pbs.twimg.com/profile_images/738923844879126528/6M1KDhxM_400x400.jpg",name:"Wild Aid",animal:elephant)
 
+Link.create(animal:elephant,name:"",website:"https://wwf.panda.org/knowledge_hub/endangered_species/elephants/african_elephants/afelephants_threats/#:~:text=Despite%20a%20ban%20on%20the,consumer%20market%20for%20such%20products.")
+Link.create(animal:elephant,name:"",website:"https://www.nationalgeographic.com/animals/2019/06/elephants-poached-in-botswana/")
+Link.create(animal:elephant,name:"",website:"https://insider.si.edu/2018/03/poachers-are-killing-endangered-asian-elephants-for-their-skin-and-meat-not-their-tusks/")
+Link.create(animal:elephant,name:"",website:"http://www.eleaid.com/elephant-information/elephant-tusks/")
+Link.create(animal:elephant,name:"",website:"https://www.mnn.com/earth-matters/animals/stories/6-ways-to-help-elephants")
+Link.create(animal:elephant,name:"",website:"https://support.worldwildlife.org/site/Donation2?df_id=15397&15397.donation=form1&s_src=AWS2010OQ18319A04084RX")
+
 
 # ========================================================================================================================================================================
 
@@ -134,15 +152,15 @@ population:"around 100,000 to 200,000 lowland Gorillas and about 880 to 1000 Mou
 status:"Endangered to Critically Endangered, depending on the subspecies",
 lifespan:"up to 40 years",
 name:"Gorilla",
-causes:"The hunting, trading and consumption of gorillas is almost illegal in all Congo Basin countries.
+causes:"    The hunting, trading and consumption of gorillas is almost illegal in all Congo Basin countries.
 Poaching still continues because of the lack of law enforcement, and ineffective  judiciary systems.
-They  are being killed because there is high demand for supply ,for meat in urban centers, eating gorilla meat is respected and shows that someone has a high status , mainly consumed by the wealthy.
-There is no way to tell how many  gorillas are poached , this is due to them being butchered and eaten at that very moment , and/ or because their meat is smoked to be sold in bush markets. Gorillas have a very low reproductive rates.
-This low reproduction rate complicates the recovery of continuously declining populations.It is known that  38-40 % of the infants die at some point during their first three years of life, during lactation period.  Gorillas are also frequently
- wounded or killed by traps that are made to hunt down other  forest animals.They are also poached to be traded to be pets, to be used in illegal private animal sanctuaries  or trophies , also bought for showing wealth status. Their body parts are used in medicine,
+They  are being killed because there is high demand for supply, for meat in urban centers, eating gorilla meat is respected and shows that someone has a high status, mainly consumed by the wealthy.
+There is no way to tell how many  gorillas are poached , this is due to them being butchered and eaten at that very moment, or because their meat is smoked to be sold in bush markets. Gorillas have a very low reproductive rates.
+This low reproduction rate complicates the recovery of continuously declining populations.It is known that  38 to 40 percent of the infants die at some point during their first three years of life, during lactation period.  Gorillas are also frequently
+ wounded or killed by traps that are made to hunt down other forest animals. They are also poached to be traded to be pets, to be used in illegal private animal sanctuaries  or trophies, also bought for showing wealth status. Their body parts are used in medicine,
   where there is no scientific evidence that any of these medications are effective and body parts are used as magical charms.
 ",
-help:" Trek to see the mountain gorillas in Rwanda, DR Congo, or Uganda, by purchasing permitsto tour you’re not only buying an encounter with the species but also funding for the gorillas’ protection but dont be near them if you are sick, they are susceptible to many infectious diseases as humans.
+help:" Trek to see the mountain gorillas in Rwanda, DR Congo, or Uganda, by purchasing permitsto tour you’re not only buying an encounter with the species but also funding for the gorillas’ protection but don't be near them if you are sick, they are susceptible to many infectious diseases as humans.
  Donate to conservation organizations working to protect gorillas. Don’t buy products made with wild animal parts
 
 
@@ -173,9 +191,11 @@ location3=Location.create(name:"gabon",longtitude:11.6094,latitude:0.8037,animal
 location3=Location.create(name:"democratic republic of congo",longtitude:21.7587,latitude:4.0383,animal:gorilla)
 # stats
 stat1=Statistic.create(
-year1:"1900",year2:"1920",year3:"1950",year4:"2000",year5:"2016",year6:'2020',year7:'-',
-amount1:'5210',amount2:'3300',amount3:'1800',amount4:'505',amount5:'630',amount6:'1000',amount7:'-',
-info:"People living in the range of eastern lowland gorillas have traditionally had taboos against eating gorillas,this changed during the Civil war in DRC. Hunger in the area has led people to the eastern lowland gorillas to be eaten for subsistenceThe number of mountain gorillas decreased to 700 individuals by the late 1990’s and the population of the lowland gorillas had also been reducing drastically. By 2009 it was estimated that about 4% of the gorillas were being poached monthly.",img:'gg',animal:gorilla
+year1:"1978",year2:"1990",year3:"1996",year4:"2000",year5:"2004",year6:'2010',year7:'2015',
+amount1:'223',amount2:'258',amount3:'245',amount4:'130',amount5:'168',amount6:'181',amount7:'213',
+info:"People living in the range of eastern lowland gorillas have traditionally had taboos against eating gorillas,this changed during the Civil war in DRC. Hunger in the area has led people to the eastern lowland gorillas to be eaten for subsistenceThe number of mountain gorillas decreased to 700 individuals by the late 1990’s and the population of the lowland gorillas had also been reducing drastically. By 2009 it was estimated that about 4% of the gorillas were being poached monthly.
+This graph on the right shows the  Lowland Gorilla population of the Tshivanga highlands declined by more than 50% because of illegal hunting during the civil war. 
+",img:'gg',animal:gorilla
 
 )
 image=Image.create(image_url:"https://www.virungaparkcongo.com/wp-content/uploads/2020/01/tmp505850617885884417-2.jpg",animal:gorilla)
@@ -187,6 +207,12 @@ orginazations=Organization.create(website:"https://gorillafund.org/",logo:"https
 orginazations=Organization.create(website:"https://theellenfund.org/",logo:"https://media-exp1.licdn.com/dms/image/C560BAQFpr4ArmtrIvA/company-logo_200_200/0?e=2159024400&v=beta&t=Oah2qGAOYL0wMEfzCZywM1iX8jlZVMAKvJB7j3K-1S4",name:"The Ellen degeneres wildlife fund ",animal:gorilla)
 orginazations=Organization.create(website:"https://www.saveagorilla.org/",logo:"https://s3-us-west-1.amazonaws.com/cr-rackspace-cloud-files-backups/Prod_Medium/user_photo599dcd7c86ca2.jpg",name:"Mountain Gorilla Conservation Fund",animal:gorilla)
 orginazations=Organization.create(website:"https://www.awf.org/wildlife-conservation/mountain-gorilla",logo:"https://www.tct.global/images/2018/12/09/African-Wildlife-Foundation-TCT-organizations.jpg",name:"African Wildlife foundation ",animal:gorilla)
+Link.create(animal:gorilla,name:"",website:"https://wwf.panda.org/knowledge_hub/endangered_species/great_apes/gorillas/threats/")
+Link.create(animal:gorilla,name:"",website:"https://www.gorillas-world.com/gorilla-reproduction/")
+Link.create(animal:gorilla,name:"",website:"https://www.virungaparkcongo.com/information/main-reasons-gorillas-poached/")
+Link.create(animal:gorilla,name:"",website:"https://www.gorilladoctors.org/top-10-ways-to-protect-mountain-gorillas/#:~:text=Donate%20to%20conservation%20organizations%20working,ground%20to%20conserve%20the%20species.")
+Link.create(animal:gorilla,name:"",website:"https://measures.wcs.org/Metric-Details/m/24")
+
 
 
 
@@ -198,11 +224,11 @@ population:"between 2,000 and 2,400",
 status:"Critically endangered",
 lifespan:"up to 19 years",
 name:"Lemur",
-causes:"Lemurs are primates. They are  found only on the African island of Madagascar 
+causes:"    Lemurs are primates. They are found only on the African island of Madagascar. 
 Today  Ninety-five percent of Earth's lemur population are threatened, they are classified to be  the most endangered primates.
 The International Union for the Conservation of Nature primate specialists (IUCN) determined that there are  111 lemur species known and subspecies,
  out of those 111 there  105 considered as critically endangered, endangered or vulnerable. Poaching and illegal trade in wildlife and wildlife products 
-  is one of the largest black markets in the world, estimating billions of dollars a year. These creatures are  killed for food,for the commercial bushmeat trade , 
+  is one of the largest black markets in the world, estimating billions of dollars a year. These creatures are  killed for food, for the commercial bushmeat trade , 
   others poach them to sell them as pets and to get to them, they chop down the tropical trees which also destroy their homes .",
 help:"Talk about wildlife crime with your family, friends, and everyone you can.
 Support NGOs and organizations that work for the conservation of species and ecosystems, sign petitions and donate. 
@@ -226,6 +252,9 @@ image=Image.create(image_url:"https://fightforrhinos.files.wordpress.com/2013/08
 # orginizations
 orginazations=Organization.create(website:"https://www.lemurconservationnetwork.org/#:~:text=The%20Lemur%20Conservation%20Network%20unites,and%20save%20lemurs%20from%20extinction.",logo:"https://www.lemurconservationnetwork.org/wordpress/wp-content/uploads/2015/01/lcn-logo-home1.png",name:"Lemur conservation Network",animal:lemur)
 orginazations=Organization.create(website:"https://www.lemurreserve.org/",logo:"https://pbs.twimg.com/profile_images/948577836838858752/yc6aEYQO_400x400.jpg",name:"Lemur conservation Foundation",animal:lemur)
+Link.create(animal:lemur,name:"",website:"https://www.ecowatch.com/are-lemurs-endangered-2592379111.html")
+Link.create(animal:lemur,name:"",website:"https://www.usaid.gov/madagascar/environment/wildlifetrafficking")
+Link.create(animal:lemur,name:"",website:"https://www.cambridge.org/core/journals/oryx/article/live-capture-and-ownership-of-lemurs-in-madagascar-extent-and-conservation-implications/E8E63D8427E8B7D2AC6488739A48EE08")
 
 
 # ========================================================================================================================================================================
@@ -236,11 +265,11 @@ status:"Critically endangered",
 lifespan:"up to 50 years",
 name:"Rhino",
 causes:"
-Rhino horn is used in Traditional Asian Medicine  for more than 2,000 years.Its known to be  used to treat  fever, rheumatism, gout, and other disorders. Also to cure hangovers, snakebites, hallucinations, typhoid, headaches, carbuncles, vomiting, food poisoning, and “devil possession.” 
-While it is commonly believed to be prescribed as an aphrodisiac, this is not the case.  There have been many  scientific studies that  proved there is no medical benefit to taking rhino horn remedies. A rhino’s horn is made of keratin, the same substance that makes up human hair and fingernails. 
-Sadly even with these facts, the demand is still very high. People also use it to show their status of wealth.A survey, by TRAFFIC in 2013, found that the reason behind people buying Rhino horn was more to show off their status and not for medicinal purposes.  Investigations of rhino trade have found  
+    Rhino horn has been used in Traditional Asian Medicine  for more than 2,000 years. It's known to be  used to treat  fever, rheumatism, gout, and other disorders. Also to cure hangovers, snakebites, hallucinations, typhoid, headaches, carbuncles, vomiting, food poisoning, and “devil possession.” 
+  There have been many  scientific studies that  proved there is no medical benefit to taking rhino horn remedies. A rhino’s horn is made of keratin, the same substance that makes up human hair and fingernails. 
+Sadly even with these facts, the demand is still very high. People also use it to show their status of wealth. A survey, by TRAFFIC in 2013, found that the reason behind people buying Rhino horn was more to show off their status and not for medicinal purposes.  Investigations of rhino trade have found  
 that consumers  are not concerned about rhino populations nor the stigma attached to using it, Which means  that the demand for rhino horn is unlikely to fall because people’s beliefs are ingrained in the culture. Rhino horn has been used to make ornaments and jewellery, although this is often a means through
- which rhino horn can be smuggled into countries.Reports have found that rhino horn has been fetching prices as high as US$50,000 per kg.",
+ which rhino horn can be smuggled into countries. Reports have found that rhino horn has been fetching prices as high as US$50,000 per kg.",
 help:"You can donate to organizations helping rhinos out. Don't buy  medication containing rhino horn or any products containing rhino horn. Spread the word on the issue about whats going on ",
 video_url:"https://www.youtube.com/embed/UugTT0ReJCM",
 basic_info:'
@@ -259,10 +288,10 @@ location5=Location.create(name:"Zimbabwe",longtitude:31.053028,latitude:-17.8248
 location5=Location.create(name:"Kenya",longtitude:37.9083264,latitude:0.1768696 ,animal:rhino)
 # stats
 stat1=Statistic.create(
-year1:"2009",year2:"2011",year3:"2013",year4:"2015",year5:"2017",year6:'2019',year7:'-',
-amount1:'21',amount2:'26',amount3:'28',amount4:'28',amount5:'29',amount6:'27',amount7:'-',
+year1:"2009",year2:"2011",year3:"2013",year4:"2015",year5:"2017",year6:'2019',year7:'2020',
+amount1:'21',amount2:'26',amount3:'28',amount4:'28',amount5:'29',amount6:'27',amount7:'26',
 info:"In 2007 there were  Only 13 rhinos were lost to South African poachers,  the number of poachings increased in under ten years by 9,246% and by 2014 the number of rhinos had increased considerably to 1,215
-This inclination continued to stay high in the following years and even though, most recent studies  showed that the numbers for 2018 decreased in the numbers to under a 1,000 for the first time since 2012, there is still much work to be done in order to continue to protect and maintain population levels and minimize poaching incidents.
+This inclination continued to stay high in the following years and even though, most recent studies  showed that the numbers for 2018 decreased in the numbers to under a 1,000 for the first time since 2012, there is still much work to be done in order to continue to protect and maintain population levels and minimize poaching incidents. The graph on the right shows the population of Rhinos in thousands, in the past decades.
 ",img:'gg',animal:rhino)
 # imgsimage=Image.create(image_url:"https://afktravel.com/wp-content/uploads/2014/09/ring-tailed-lemur.jpg",animal:lemur)
 image=Image.create(image_url:"https://www.nationalgeographic.com/content/dam/news/2018/01/25/rhino/NationalGeographic_2451025.jpg",animal:rhino)
@@ -275,6 +304,13 @@ orginazations=Organization.create(website:"https://www.savetherhino.org/",logo:"
 orginazations=Organization.create(website:"https://rhinos.org/",logo:"https://www.speciesonthebrink.org/wp-content/uploads/2015/10/IRF-Logo-edited.jpg",name:"International rhino foundation",animal:rhino)
 orginazations=Organization.create(website:"https://rhinorescueproject.org/",logo:"https://worldanimalnews.com/wp-content/uploads/2017/03/Rhino-Rescue-Project-Logo.jpg",name:"Rhino rescue project",animal:rhino)
 orginazations=Organization.create(website:"https://www.globalgiving.org/donate/40586/helping-rhinos-usa/",logo:"https://i.pinimg.com/originals/00/26/60/002660f0e929199835d2d56eb56b0ef1.jpg",name:"Global Giving",animal:rhino)
+Link.create(animal:rhino,name:"",website:"https://www.helpingrhinos.org/rhino-poaching/")
+Link.create(animal:rhino,name:"",website:"https://www.savetherhino.org/rhino-info/threats/poaching-rhino-horn/")
+Link.create(animal:rhino,name:"",website:"https://www.savetherhino.org/")
+Link.create(animal:rhino,name:"",website:"https://www.africa-wildlife-detective.com/rhino-poaching.html")
+Link.create(animal:rhino,name:"",website:"https://ridingforrhinos.org/whyrhinos/rhino-population-graph/")
+
+
 
 
 
@@ -287,8 +323,8 @@ status:"Critically endangered",
 lifespan:"up to 50 years",
 name:"Orangutan",
 causes:"Poaching orangutan infants and hunting for meat threatens their species. Mothers are often killed for their babies. Hundreds of infant orangutans are taken from the wild for the pet trade every year.
-The babies are sold illegally  on the black market for pets .By doing this poachers first kill the mother. There are estimations that show four to five orangutans die for every baby traded. Many baby orangutans die from this process too, 
-either from injuries from falling several hundred feet when the mother was shot, by trauma of seeing their mother killed,  from contracting diseases from humans , or from poor conditions they are kept in after being captured. Orangutans are
+The babies are sold illegally  on the black market for pets. By doing this poachers first kill the mother. There are estimations that show four to five orangutans die for every baby traded. Many baby orangutans die from this process too, 
+either from injuries from falling several hundred feet when the mother was shot, by trauma of seeing their mother killed, from contracting diseases from humans , or from poor conditions they are kept in after being captured. Orangutans are
  also hunted as food because of hunger and/or poverty. The rise of palm oil harvesting means that their rainforest home is also being cut down . Wild orangutans sometimes try to eat the fruit in human gardens and farms and sometimes stary into oil palm plantations, orangutans are often illegally killed because they can damage young oil palms and steal fruit.
   ",
 help:"Donate to orginazations helping out the species. Avoid products made with unsustainable palm oil.
@@ -317,8 +353,24 @@ orginazations=Organization.create(website:"https://www.orangutan.com/about-us/ou
 orginazations=Organization.create(website:"https://redapes.org/about-us/",logo:"https://pbs.twimg.com/profile_images/732771661527810049/H1l4EolV_400x400.jpg",name:"Orangutan Outreach",animal:orangatan)
 orginazations=Organization.create(website:"https://www.sumatranorangutan.org/about-us/",logo:"https://media-exp1.licdn.com/dms/image/C560BAQHcPn3HaQ4FYQ/company-logo_200_200/0?e=2159024400&v=beta&t=q-s3cRIAJTEfdQ5ZPGSZYeVYjBjtCpuclJMZm7pZnxg",name:"Sumatran Orangutan Conservation",animal:orangatan)
 orginazations=Organization.create(website:"https://www.centerforgreatapes.org/",logo:"https://hulafrog2.com/uploads/5d3141df6bf1a.jpg",name:"Center for Great Apes",animal:orangatan)
+Link.create(animal:orangatan,name:"",link:"https://orangutan.org/orangutan-facts/quick-orangutan-facts-figures/")
+Link.create(animal:orangatan,name:"",link:"https://www.natgeokids.com/uk/discover/animals/general-animals/ten-facts-about-orang-utans/#:~:text=Orangutan%20facts,2m%20from%20fingertip%20to%20fingertip!")
+Link.create(animal:orangatan,name:"",link:"https://www.orangutan.com/threats-to-orangutans/")
+Link.create(animal:orangatan,name:"",link:"https://www.onegreenplanet.org/animalsandnature/outstanding-organizations-working-to-save-endangered-orangutans/")
+Link.create(animal:orangatan,name:"",link:"https://healthinharmony.org/2016/11/11/why-orangutans-are-going-extinct-how-to-stop-it/")
+Link.create(animal:orangatan,name:"",link:"https://www.orangutantrekkingtours.com/orangutan-blog/how-many-critically-endangered-bornean-orangutans-are-left/")
+Link.create(animal:orangatan,name:"",link:"https://www.theguardian.com/environment/2018/feb/15/dramatic-decline-in-borneos-orangutan-population-as-150000-lost-in-16-years")
 
 # ========================================================================================================================================================================
-
+Poacher.create(
+  why:"   Poachers sometimes kill or capture animals to sell them locally or for the global trade in wildlife, this  trade is worth tens of billions of dollars each year and strikingly impacts many businesses and tourism worldwide and has also increased the Wealth in Asia .
+There have been studies showing that one of the main reasons people are driven to poach animals is due to poverty. Four in five villagers said they poach animals for their needs, to provide for their family. These studies show that about 46 percent of poachers considered their households as poor compared with other village households. 96 percent have said they wouldn't continue that kind of job if they were able to obtain income through other means to meet their needs. Many also continue with their jobs to have a means to give their children a chance to go to school.
+Many people don't only poach for income but also to keep them away from their crops prevent them from attacking their livestock.
+They capture  animals like  birds, reptiles, and primates, and are sold to be  exotic pets. Other poachers animals kill them for their meat to sell as bushmeat  which is a delicacy in parts of Africa.
+",
+video:"https://www.youtube.com/embed/nJ5xLvyaJ8",
+img:"https://newsroom.wcs.org/dnnimagehandler.ashx?mode=file&file=/Portals/164/ivory%20seized.jpg&w=785&h=500&resizemode=crop",
+img2:"https://cdn.cnn.com/cnnnext/dam/assets/160916143156-rhino-dehorning-6-super-169.jpg"
+)
 
 
