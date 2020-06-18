@@ -247,7 +247,7 @@ location4=Location.create(name:"Madagascar",longtitude: 46.8344597,latitude:-18.
 # imgs
 image=Image.create(image_url:"https://speakupforthevoiceless.files.wordpress.com/2014/08/5-sifaka-prepared-for-sale.jpg",animal:lemur)
 
-image=Image.create(image_url:"https://www.lemurconservationnetwork.org/wordpress/wp-content/uploads/2018/03/Lakato14.jpg",animal:lemur)
+image=Image.create(image_url:"https://imgs.mongabay.com/wp-content/uploads/sites/20/2018/03/16123508/031618_RRandrianarisoa_LemurPoacher_LEMURIENS2.jpg",animal:lemur)
 image=Image.create(image_url:"https://fightforrhinos.files.wordpress.com/2013/08/endangered-lemurs-killed-for-bush-in-mada.jpg",animal:lemur)
 # orginizations
 orginazations=Organization.create(website:"https://www.lemurconservationnetwork.org/#:~:text=The%20Lemur%20Conservation%20Network%20unites,and%20save%20lemurs%20from%20extinction.",logo:"https://www.lemurconservationnetwork.org/wordpress/wp-content/uploads/2015/01/lcn-logo-home1.png",name:"Lemur conservation Network",animal:lemur)
@@ -353,13 +353,13 @@ orginazations=Organization.create(website:"https://www.orangutan.com/about-us/ou
 orginazations=Organization.create(website:"https://redapes.org/about-us/",logo:"https://pbs.twimg.com/profile_images/732771661527810049/H1l4EolV_400x400.jpg",name:"Orangutan Outreach",animal:orangatan)
 orginazations=Organization.create(website:"https://www.sumatranorangutan.org/about-us/",logo:"https://media-exp1.licdn.com/dms/image/C560BAQHcPn3HaQ4FYQ/company-logo_200_200/0?e=2159024400&v=beta&t=q-s3cRIAJTEfdQ5ZPGSZYeVYjBjtCpuclJMZm7pZnxg",name:"Sumatran Orangutan Conservation",animal:orangatan)
 orginazations=Organization.create(website:"https://www.centerforgreatapes.org/",logo:"https://hulafrog2.com/uploads/5d3141df6bf1a.jpg",name:"Center for Great Apes",animal:orangatan)
-Link.create(animal:orangatan,name:"",link:"https://orangutan.org/orangutan-facts/quick-orangutan-facts-figures/")
-Link.create(animal:orangatan,name:"",link:"https://www.natgeokids.com/uk/discover/animals/general-animals/ten-facts-about-orang-utans/#:~:text=Orangutan%20facts,2m%20from%20fingertip%20to%20fingertip!")
-Link.create(animal:orangatan,name:"",link:"https://www.orangutan.com/threats-to-orangutans/")
-Link.create(animal:orangatan,name:"",link:"https://www.onegreenplanet.org/animalsandnature/outstanding-organizations-working-to-save-endangered-orangutans/")
-Link.create(animal:orangatan,name:"",link:"https://healthinharmony.org/2016/11/11/why-orangutans-are-going-extinct-how-to-stop-it/")
-Link.create(animal:orangatan,name:"",link:"https://www.orangutantrekkingtours.com/orangutan-blog/how-many-critically-endangered-bornean-orangutans-are-left/")
-Link.create(animal:orangatan,name:"",link:"https://www.theguardian.com/environment/2018/feb/15/dramatic-decline-in-borneos-orangutan-population-as-150000-lost-in-16-years")
+Link.create(animal:orangatan,name:"",website:"https://orangutan.org/orangutan-facts/quick-orangutan-facts-figures/")
+Link.create(animal:orangatan,name:"",website:"https://www.natgeokids.com/uk/discover/animals/general-animals/ten-facts-about-orang-utans/#:~:text=Orangutan%20facts,2m%20from%20fingertip%20to%20fingertip!")
+Link.create(animal:orangatan,name:"",website:"https://www.orangutan.com/threats-to-orangutans/")
+Link.create(animal:orangatan,name:"",website:"https://www.onegreenplanet.org/animalsandnature/outstanding-organizations-working-to-save-endangered-orangutans/")
+Link.create(animal:orangatan,name:"",website:"https://healthinharmony.org/2016/11/11/why-orangutans-are-going-extinct-how-to-stop-it/")
+Link.create(animal:orangatan,name:"",website:"https://www.orangutantrekkingtours.com/orangutan-blog/how-many-critically-endangered-bornean-orangutans-are-left/")
+Link.create(animal:orangatan,name:"",website:"https://www.theguardian.com/environment/2018/feb/15/dramatic-decline-in-borneos-orangutan-population-as-150000-lost-in-16-years")
 
 # ========================================================================================================================================================================
 Poacher.create(
