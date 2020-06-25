@@ -367,7 +367,7 @@ Poacher.create(
 There have been studies showing that one of the main reasons people are driven to poach animals is due to poverty. Four in five villagers said they poach animals for their needs, to provide for their family. These studies show that about 46 percent of poachers considered their households as poor compared with other village households. 96 percent have said they wouldn't continue that kind of job if they were able to obtain income through other means to meet their needs. Many also continue with their jobs to have a means to give their children a chance to go to school.
 Many people don't only poach for income but also to keep them away from their crops prevent them from attacking their livestock.
 They capture  animals like  birds, reptiles, and primates, and are sold to be  exotic pets. Other poachers animals kill them for their meat to sell as bushmeat  which is a delicacy in parts of Africa.
-",
+ ",
 video:"https://www.youtube.com/embed/nJ5xLvyaJ8",
 img:"https://newsroom.wcs.org/dnnimagehandler.ashx?mode=file&file=/Portals/164/ivory%20seized.jpg&w=785&h=500&resizemode=crop",
 img2:"https://cdn.cnn.com/cnnnext/dam/assets/160916143156-rhino-dehorning-6-super-169.jpg"
