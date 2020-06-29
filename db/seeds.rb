@@ -19,10 +19,10 @@ status:"Endangered",lifespan:"up to 19 years",
 name:"Tiger",
 causes:"    Wild tigers main threat today is poaching. They are hunted for their body parts, their bones, skin, and meat.
  They are high in demand and are made into various products that are used throughout countries in Asia and Great Britain. They are used for medical purposes, 
- it is thought that each body part has different curing effects and are thought to calm fright and cure ulcers, bites, rheumatism, laziness, pimples, to ward off evil spirits. 
+ it is thought that each body part has different curing effects and are thought to calm fright and cure ulcers, bites, rheumatism, laziness, pimples, to ward off evil spirits and much more. 
  Chinese government banned the use of tiger parts in the 1990s, there is  strong cultural belief in tiger parts helping to treat these diseases or problems. Because of this there is still high demand on tiger parts.
  They are also used as status symbols, their skins used as home decor like carpets, they are used to make  wine , and to keep as pets or to eat . In these countries, a pair of tiger eyes can sell for $170 , a paw $1000. 
- Tiger bone may be sold in powdered form for anywhere between $64-$168/lb, tiger wine known to be sold for over $30,000 a case and their pelts could also be sold at $20,000.
+ Tiger bone may be sold in powdered form for anywhere between $64 to $168 per pound, tiger wine known to be sold for over $30,000 a case and their pelts could also be sold at $20,000.
 ",
 help:" When traveling don’t purchase any product that could contain animal parts. 
 There are many conservation organizations such as the World Wildlife Fund (WWF) and the International Fund for Animal Welfare (IFAW) that are working to stop and prevent animal poaching, you can help by  signing a petition or donating to their organization.
@@ -93,15 +93,15 @@ name:"Elephant",
 causes:"    Tens of thousands of elephants are being killed every year for their ivory tusks. Elephant Tusks are teeth, and elephants use them for  digging, lifting objects, obtaining food, to protect their trunks and for defense. Elephant tusks contain Ivory
 , Elephant ivory has been used in huge amounts to make billiard balls, piano keys, identification chop ornaments and jewellery, like necklaces, bracelets, earrings, etc.. even though there was  a ban on the international trade in ivory, there has been an increasing
 demand in Asia for more ivory  and there has been a large amount of elephants are still being poached  which has led to a large decline in elephant populations and some savannah elephant populations. Behind every piece of ivory, even if it's a full tusk or a small piece
-is a dead elephant. A tusk can't be removed without killing the elephant. A broken tusk, can lead to a life-threatening infection. Poachers use darts, poison, automatic rifles to hunt  elephants, once they get one down ,while they are dying, poachers gouge the tuss out from the living elephant's skull.
+is a dead elephant. A tusk can't be removed without killing the elephant. A broken tusk, can lead to a life-threatening infection. Poachers use darts, poison, automatic rifles to hunt  elephants, once they get one down ,while they are dying, poachers gouge the tusk out from the living elephant's skull.
 The elephants die and suffer a painful, slow death from blood loss. Studies done  at the Smithsonian Conservation Biology Institute (SCBI) have also seen elephants poached for their meat and skins ,Elephant killings for only their meat are rare. Elephant hide has a lot of value and are made to high quality
 clothes and furnishings. Elephant leather are sold in boutiques across Asia.  Poachers Also kill elephants for  traditional Asian medicine products and they poison waterholes and track the elephants before stripping the carcass.",
 help:"Do not buy or sell Ivory. Buy elephant-friendly coffee and wood. Support conservations, by petitioning or giving donations, many organizations like the African Wildlife foundation. Adopting Elephants with foundations like
-The World Wildlife Foundation, by adopting you can recive pictures of your adopted elephant and they get fundingfor their conservation efforts ",
+The World Wildlife Foundation, by adopting you can recive pictures of your adopted elephant and they get funding for their conservation efforts ",
 video_url:"https://www.youtube.com/embed/ygHH40MAL7w",
 
 img_url:"https://i0.wp.com/cdn-prod.medicalnewstoday.com/content/images/articles/322/322736/elephant-from-the-front.jpg?w=1155&h=1537" ,
-basic_info:'SCIENTIFIC NAME: Loxodonta africana.
+basic_info:'SCIENTIFIC NAME: Loxodonta africana/
 TYPE: Mammals/
 DIET: Herbivore/
 GROUP NAME: Herd/
@@ -269,7 +269,7 @@ causes:"
   There have been many  scientific studies that  proved there is no medical benefit to taking rhino horn remedies. A rhino’s horn is made of keratin, the same substance that makes up human hair and fingernails. 
 Sadly even with these facts, the demand is still very high. People also use it to show their status of wealth. A survey, by TRAFFIC in 2013, found that the reason behind people buying Rhino horn was more to show off their status and not for medicinal purposes.  Investigations of rhino trade have found  
 that consumers  are not concerned about rhino populations nor the stigma attached to using it, Which means  that the demand for rhino horn is unlikely to fall because people’s beliefs are ingrained in the culture. Rhino horn has been used to make ornaments and jewellery, although this is often a means through
- which rhino horn can be smuggled into countries. Reports have found that rhino horn has been fetching prices as high as US$50,000 per kg.",
+ which rhino horn can be smuggled into countries. Reports have found that rhino horn has been fetching prices as high as US$50,000 per kilogram.",
 help:"You can donate to organizations helping rhinos out. Don't buy  medication containing rhino horn or any products containing rhino horn. Spread the word on the issue about whats going on ",
 video_url:"https://www.youtube.com/embed/UugTT0ReJCM",
 basic_info:'
@@ -335,7 +335,7 @@ Educate yourself and spread the word. Understanding the issues and explaining th
 basic_info:'
 SCIENTIFIC NAME: Pongo/
 TYPE: Mammals/
-GESTATION PERIOD: Bornean orangutan: 259 days Encyclopedia of Life/
+GESTATION PERIOD: Bornean orangutan: 259 days /
 WEIGHT: Sumatran orangutan: 99 lbs, Bornean orangutan: 110 – 220 lbs/
 HEIGHT: Sumatran orangutan: 4.6 ft., Bornean orangutan: 3.9 – 4.6 ft/
 LENGTH: Sumatran orangutan: 2.7 ft., Bornean orangutan: 3.9 – 4.6',
@@ -363,7 +363,7 @@ Link.create(animal:orangatan,name:"",website:"https://www.theguardian.com/enviro
 
 # ========================================================================================================================================================================
 Poacher.create(
-  why:"   Poachers sometimes kill or capture animals to sell them locally or for the global trade in wildlife, this  trade is worth tens of billions of dollars each year and strikingly impacts many businesses and tourism worldwide and has also increased the Wealth in Asia .
+  why:"   Poachers sometimes kill or capture animals to sell them locally or for the global trade in wildlife, this  trade is worth tens of billions of dollars each year and strikingly impacts many businesses, tourism worldwide and has also increased the Wealth in Asia .
 There have been studies showing that one of the main reasons people are driven to poach animals is due to poverty. Four in five villagers said they poach animals for their needs, to provide for their family. These studies show that about 46 percent of poachers considered their households as poor compared with other village households. 96 percent have said they wouldn't continue that kind of job if they were able to obtain income through other means to meet their needs. Many also continue with their jobs to have a means to give their children a chance to go to school.
 Many people don't only poach for income but also to keep them away from their crops prevent them from attacking their livestock.
 They capture  animals like  birds, reptiles, and primates, and are sold to be  exotic pets. Other poachers animals kill them for their meat to sell as bushmeat  which is a delicacy in parts of Africa.
